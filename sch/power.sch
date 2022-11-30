@@ -1,0 +1,503 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title "LEAP FMCP "
+Date "2021-12-03"
+Rev "1.0"
+Comp "Karlsruhe Institute of Technology (KIT)"
+Comment1 "Institute for Data Processing and Electronics (IPE)"
+Comment2 "Luis Ardila"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KIT_Regulator_Switching:LTM4624EY-PBF U3
+U 1 1 63ABBEC3
+P 5400 3300
+F 0 "U3" H 6250 4290 60  0000 C CNN
+F 1 "LTM4624EY-PBF" H 6250 4184 60  0000 C CNN
+F 2 "Package_BGA:BGA-25_6.35x6.35mm_Layout5x5_P1.27mm" H 5400 3300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4624fd.pdf" H 5400 3300 50  0001 C CNN
+F 4 "LTM4624EY#PBF" H 5400 3300 50  0001 C CNN "manf#"
+F 5 "Analog Devices Inc." H 5400 3300 50  0001 C CNN "manf"
+F 6 "LTM4624EY#PBF-ND" H 5400 3300 50  0001 C CNN "digikey#"
+F 7 " 906-3353" H 5400 3300 50  0001 C CNN "rs#"
+	1    5400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63AD3538
+P 4600 4550
+AR Path="/5EF3A6E9/63AD3538" Ref="C?"  Part="1" 
+AR Path="/619269F2/63AD3538" Ref="C?"  Part="1" 
+AR Path="/619BA206/63AD3538" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63AD3538" Ref="C27"  Part="1" 
+F 0 "C27" H 4485 4641 50  0000 R CNN
+F 1 "0.1uF" H 4485 4550 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 4400 50  0001 C CNN
+F 3 "~" H 4600 4550 50  0001 C CNN
+F 4 "0402, 16V" H 4485 4459 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 4600 4550 50  0001 C CNN "stock"
+	1    4600 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63AD3675
+P 7350 2800
+AR Path="/5EF3A6E9/63AD3675" Ref="C?"  Part="1" 
+AR Path="/619269F2/63AD3675" Ref="C?"  Part="1" 
+AR Path="/619BA206/63AD3675" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63AD3675" Ref="C28"  Part="1" 
+F 0 "C28" H 7235 2891 50  0000 R CNN
+F 1 "47uF" H 7235 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7388 2650 50  0001 C CNN
+F 3 "~" H 7350 2800 50  0001 C CNN
+F 4 "0805, 10V" H 7235 2709 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 7350 2800 50  0001 C CNN "stock"
+	1    7350 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63AE3120
+P 6400 5000
+F 0 "#PWR?" H 6400 4750 50  0001 C CNN
+F 1 "GND" H 6405 4827 50  0000 C CNN
+F 2 "" H 6400 5000 50  0001 C CNN
+F 3 "" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4700 6400 4800
+Wire Wire Line
+	6100 4800 6100 4700
+Connection ~ 6400 4800
+Wire Wire Line
+	6400 4800 6400 5000
+$Comp
+L Device:R R8
+U 1 1 63AEAF3E
+P 5250 4550
+F 0 "R8" H 5320 4596 50  0000 L CNN
+F 1 "19.1k" H 5320 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5180 4550 50  0001 C CNN
+F 3 "~" H 5250 4550 50  0001 C CNN
+	1    5250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 63AEC454
+P 4200 4550
+F 0 "R7" H 4270 4596 50  0000 L CNN
+F 1 "0" H 4270 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4130 4550 50  0001 C CNN
+F 3 "~" H 4200 4550 50  0001 C CNN
+	1    4200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 63AEDBF5
+P 4200 3500
+F 0 "R6" H 4270 3591 50  0000 L CNN
+F 1 "0" H 4270 3500 50  0000 L CNN
+F 2 "KIT_Resistor_SMD:R_0402_1005Metric_DNP" V 4130 3500 50  0001 C CNN
+F 3 "~" H 4200 3500 50  0001 C CNN
+F 4 "DNP" H 4270 3409 50  0000 L CNN "DNP"
+	1    4200 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5400 3900
+Wire Wire Line
+	5400 4000 3900 4000
+Wire Wire Line
+	3900 4000 3900 4400
+Connection ~ 3900 4000
+Wire Wire Line
+	5400 4100 4200 4100
+Wire Wire Line
+	4200 4100 4200 4400
+Connection ~ 4200 4100
+Wire Wire Line
+	5400 4200 4600 4200
+Wire Wire Line
+	4600 4200 4600 4400
+Wire Wire Line
+	5400 4300 5250 4300
+Wire Wire Line
+	5250 4300 5250 4400
+Wire Wire Line
+	5400 3300 4600 3300
+Wire Wire Line
+	3900 3300 3900 3350
+Wire Wire Line
+	4200 3350 4200 3300
+Connection ~ 4200 3300
+Wire Wire Line
+	4200 3300 3900 3300
+Wire Wire Line
+	4200 3650 4200 4100
+Wire Wire Line
+	3900 3650 3900 4000
+$Comp
+L Device:C C?
+U 1 1 63AF8B1F
+P 4600 3500
+AR Path="/5EF3A6E9/63AF8B1F" Ref="C?"  Part="1" 
+AR Path="/619269F2/63AF8B1F" Ref="C?"  Part="1" 
+AR Path="/619BA206/63AF8B1F" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63AF8B1F" Ref="C26"  Part="1" 
+F 0 "C26" H 4485 3591 50  0000 R CNN
+F 1 "1uF" H 4485 3500 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 3350 50  0001 C CNN
+F 3 "~" H 4600 3500 50  0001 C CNN
+F 4 "0402, 16V" H 4485 3409 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 4600 3500 50  0001 C CNN "stock"
+	1    4600 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63AF8B25
+P 4600 3650
+F 0 "#PWR?" H 4600 3400 50  0001 C CNN
+F 1 "GND" H 4605 3477 50  0000 C CNN
+F 2 "" H 4600 3650 50  0001 C CNN
+F 3 "" H 4600 3650 50  0001 C CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4600 3300
+Connection ~ 4600 3300
+Wire Wire Line
+	4600 3300 4200 3300
+Wire Wire Line
+	3900 4700 3900 4800
+Wire Wire Line
+	3900 4800 4200 4800
+Connection ~ 6100 4800
+Wire Wire Line
+	5250 4700 5250 4800
+Connection ~ 5250 4800
+Wire Wire Line
+	5250 4800 6100 4800
+Wire Wire Line
+	4600 4700 4600 4800
+Connection ~ 4600 4800
+Wire Wire Line
+	4600 4800 5250 4800
+Wire Wire Line
+	4200 4700 4200 4800
+Connection ~ 4200 4800
+Wire Wire Line
+	4200 4800 4600 4800
+Wire Wire Line
+	5400 2800 5250 2800
+Wire Wire Line
+	5250 2800 5250 2700
+Wire Wire Line
+	5250 2600 5400 2600
+Wire Wire Line
+	5400 2700 5250 2700
+Connection ~ 5250 2700
+Wire Wire Line
+	5250 2700 5250 2600
+Connection ~ 5250 2600
+$Comp
+L Device:R R4
+U 1 1 63B0D136
+P 3900 3500
+F 0 "R4" H 3970 3591 50  0000 L CNN
+F 1 "DNP" H 3970 3500 50  0000 L CNN
+F 2 "KIT_Resistor_SMD:R_0402_1005Metric_DNP" V 3830 3500 50  0001 C CNN
+F 3 "~" H 3900 3500 50  0001 C CNN
+F 4 "DNP" H 3970 3409 50  0000 L CNN "DNP"
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 63B0D3FD
+P 3900 4550
+F 0 "R5" H 3970 4641 50  0000 L CNN
+F 1 "DNP" H 3970 4550 50  0000 L CNN
+F 2 "KIT_Resistor_SMD:R_0402_1005Metric_DNP" V 3830 4550 50  0001 C CNN
+F 3 "~" H 3900 4550 50  0001 C CNN
+F 4 "DNP" H 3970 4459 50  0000 L CNN "DNP"
+	1    3900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 63B148B3
+P 8450 2550
+F 0 "#PWR?" H 8450 2400 50  0001 C CNN
+F 1 "+2V5" H 8465 2723 50  0000 C CNN
+F 2 "" H 8450 2550 50  0001 C CNN
+F 3 "" H 8450 2550 50  0001 C CNN
+	1    8450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B17488
+P 7350 2950
+F 0 "#PWR?" H 7350 2700 50  0001 C CNN
+F 1 "GND" H 7355 2777 50  0000 C CNN
+F 2 "" H 7350 2950 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2550 8450 2600
+$Comp
+L Device:C C?
+U 1 1 63B187AC
+P 8000 2800
+AR Path="/5EF3A6E9/63B187AC" Ref="C?"  Part="1" 
+AR Path="/619269F2/63B187AC" Ref="C?"  Part="1" 
+AR Path="/619BA206/63B187AC" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63B187AC" Ref="C29"  Part="1" 
+F 0 "C29" H 7885 2891 50  0000 R CNN
+F 1 "47uF" H 7885 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8038 2650 50  0001 C CNN
+F 3 "~" H 8000 2800 50  0001 C CNN
+F 4 "0805, 10V" H 7885 2709 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 8000 2800 50  0001 C CNN "stock"
+	1    8000 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B187B2
+P 8000 2950
+F 0 "#PWR?" H 8000 2700 50  0001 C CNN
+F 1 "GND" H 8005 2777 50  0000 C CNN
+F 2 "" H 8000 2950 50  0001 C CNN
+F 3 "" H 8000 2950 50  0001 C CNN
+	1    8000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2650 8000 2600
+Connection ~ 8000 2600
+Wire Wire Line
+	8000 2600 7350 2600
+Wire Wire Line
+	7350 2650 7350 2600
+Connection ~ 7350 2600
+Wire Wire Line
+	7350 2600 7100 2600
+Wire Wire Line
+	3900 2600 4600 2600
+$Comp
+L Device:C C?
+U 1 1 63B209AF
+P 4600 2800
+AR Path="/5EF3A6E9/63B209AF" Ref="C?"  Part="1" 
+AR Path="/619269F2/63B209AF" Ref="C?"  Part="1" 
+AR Path="/619BA206/63B209AF" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63B209AF" Ref="C21"  Part="1" 
+F 0 "C21" H 4485 2891 50  0000 R CNN
+F 1 "10uF" H 4485 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4638 2650 50  0001 C CNN
+F 3 "~" H 4600 2800 50  0001 C CNN
+F 4 "0805, 16V" H 4485 2709 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 4600 2800 50  0001 C CNN "stock"
+	1    4600 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B209B5
+P 4600 2950
+AR Path="/619BA206/63B209B5" Ref="#PWR?"  Part="1" 
+AR Path="/63AB152A/63B209B5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 2700 50  0001 C CNN
+F 1 "GND" H 4605 2777 50  0000 C CNN
+F 2 "" H 4600 2950 50  0001 C CNN
+F 3 "" H 4600 2950 50  0001 C CNN
+	1    4600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63B2185D
+P 3900 2800
+AR Path="/5EF3A6E9/63B2185D" Ref="C?"  Part="1" 
+AR Path="/619269F2/63B2185D" Ref="C?"  Part="1" 
+AR Path="/619BA206/63B2185D" Ref="C?"  Part="1" 
+AR Path="/63AB152A/63B2185D" Ref="C19"  Part="1" 
+F 0 "C19" H 3785 2891 50  0000 R CNN
+F 1 "10uF" H 3785 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3938 2650 50  0001 C CNN
+F 3 "~" H 3900 2800 50  0001 C CNN
+F 4 "0805, 16V" H 3785 2709 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 3900 2800 50  0001 C CNN "stock"
+	1    3900 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B21863
+P 3900 2950
+AR Path="/619BA206/63B21863" Ref="#PWR?"  Part="1" 
+AR Path="/63AB152A/63B21863" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 2700 50  0001 C CNN
+F 1 "GND" H 3905 2777 50  0000 C CNN
+F 2 "" H 3900 2950 50  0001 C CNN
+F 3 "" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2650 4600 2600
+Connection ~ 4600 2600
+Wire Wire Line
+	4600 2600 5250 2600
+Wire Wire Line
+	3900 2650 3900 2600
+Wire Wire Line
+	2100 2600 2100 2550
+$Comp
+L power:+12V #PWR?
+U 1 1 63B24300
+P 2100 2550
+F 0 "#PWR?" H 2100 2400 50  0001 C CNN
+F 1 "+12V" H 2115 2723 50  0000 C CNN
+F 2 "" H 2100 2550 50  0001 C CNN
+F 3 "" H 2100 2550 50  0001 C CNN
+	1    2100 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 7700 4300 2    50   Output ~ 0
+PG_2V5
+Text Notes 500  7700 0    100  ~ 0
+NOTES: \n1) PG_M2C signal is pulled up in VCU118, PG_2V5 is connected to it\n2) FREQ can be adjusted if other switching frequency other than 1MHz is wanted\n3) MODE tie  to  SGND to  enable  discontinuous  mode  operation at light loads.\n4) TRACK/SS: soft start capacitor\n5) FB: 19.1k for 2.5V\n6) SGND conencted to GND in a single point
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 6562447F
+P 3500 2600
+AR Path="/619BA206/6562447F" Ref="L?"  Part="1" 
+AR Path="/63AB152A/6562447F" Ref="L2"  Part="1" 
+F 0 "L2" V 3815 2600 50  0000 C CNN
+F 1 "BLM18SG121TZ1D" V 3724 2600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 3500 2600 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796750610462/QNFA9122.pdf" V 3640 2600 50  0001 C CNN
+F 4 "Murata Electronics" V 3500 2600 50  0001 C CNN "manf"
+F 5 "BLM18SG121TZ1D" V 3500 2600 50  0001 C CNN "manf#"
+F 6 "Ferrite Bead, 0603, 3A, 25mOhm, 120Ohm @ 100MHz" V 3633 2600 50  0000 C CNN "info"
+F 7 "490-16660-1-ND" V 3500 2600 50  0001 C CNN "digikey#"
+F 8 " 223-4927" V 3500 2600 50  0001 C CNN "rs#"
+	1    3500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 2600 2900 2600
+Wire Wire Line
+	3650 2600 3900 2600
+Connection ~ 3900 2600
+$Comp
+L Device:C C?
+U 1 1 656310AD
+P 2900 2800
+AR Path="/5EF3A6E9/656310AD" Ref="C?"  Part="1" 
+AR Path="/619269F2/656310AD" Ref="C?"  Part="1" 
+AR Path="/63AB152A/656310AD" Ref="C18"  Part="1" 
+F 0 "C18" H 2785 2891 50  0000 R CNN
+F 1 "10uF" H 2785 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 2650 50  0001 C CNN
+F 3 "~" H 2900 2800 50  0001 C CNN
+F 4 "AVT-IPE" H 2900 2800 50  0001 C CNN "stock"
+F 5 "25V" H 2785 2709 50  0000 R CNN "info"
+	1    2900 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65631C0E
+P 2900 2950
+AR Path="/619BA206/65631C0E" Ref="#PWR?"  Part="1" 
+AR Path="/63AB152A/65631C0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2900 2700 50  0001 C CNN
+F 1 "GND" H 2905 2777 50  0000 C CNN
+F 2 "" H 2900 2950 50  0001 C CNN
+F 3 "" H 2900 2950 50  0001 C CNN
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2650 2900 2600
+Connection ~ 2900 2600
+Wire Wire Line
+	2900 2600 3350 2600
+Wire Wire Line
+	7100 4300 7700 4300
+Text Label 4800 4100 0    50   ~ 0
+MODE
+Text Label 4800 4000 0    50   ~ 0
+FREQ
+Text Label 4800 4200 0    50   ~ 0
+SS
+Text Label 5250 4300 0    50   ~ 0
+FB
+Text Label 4900 2600 0    50   ~ 0
+VIN
+Wire Wire Line
+	6150 4800 6100 4800
+Wire Wire Line
+	6400 4800 6350 4800
+Text Label 5550 4800 0    50   ~ 0
+SGND
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 63AE66CF
+P 6250 4800
+F 0 "NT1" H 6250 4889 50  0000 C CNN
+F 1 "Net-Tie_2" H 6250 4890 50  0001 C CNN
+F 2 "KIT_NetTie:NetTie-2_SMD_Pad0.3mm" H 6250 4800 50  0001 C CNN
+F 3 "~" H 6250 4800 50  0001 C CNN
+	1    6250 4800
+	1    0    0    -1  
+$EndComp
+Text Label 4900 3300 0    50   ~ 0
+INTVCC
+Wire Wire Line
+	8450 2600 8000 2600
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 61B18332
+P 8450 2600
+AR Path="/61B18332" Ref="TP?"  Part="1" 
+AR Path="/63AB152A/61B18332" Ref="TP5"  Part="1" 
+F 0 "TP5" H 8603 2701 50  0001 L CNN
+F 1 "TestPoint_Probe" H 8603 2610 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8650 2600 50  0001 C CNN
+F 3 "~" H 8650 2600 50  0001 C CNN
+	1    8450 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 8450 2600
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 61B2479F
+P 4600 2600
+AR Path="/61B2479F" Ref="TP?"  Part="1" 
+AR Path="/63AB152A/61B2479F" Ref="TP6"  Part="1" 
+F 0 "TP6" H 4753 2701 50  0001 L CNN
+F 1 "TestPoint_Probe" H 4753 2610 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4800 2600 50  0001 C CNN
+F 3 "~" H 4800 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

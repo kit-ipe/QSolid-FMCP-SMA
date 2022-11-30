@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "QSolid FMC+ SMA breakout"
+Date "2022-04-26"
+Rev "1.0"
+Comp "Karlsruhe Institute of Technology (KIT)"
+Comment1 "IPE"
+Comment2 "Luis Ardila"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5000 3800 0    50   BiDi ~ 0
+3V3_SNS_P
+Text HLabel 5000 3900 0    50   BiDi ~ 0
+3V3_SNS_N
+Text HLabel 5000 4100 0    50   BiDi ~ 0
+12V_SNS_P
+Text HLabel 5000 4200 0    50   BiDi ~ 0
+12V_SNS_N
+Text HLabel 5000 3500 0    50   BiDi ~ 0
+1V8_SNS_P
+Text HLabel 5000 3600 0    50   BiDi ~ 0
+1V8_SNS_N
+Wire Wire Line
+	6700 4000 6300 4000
+Text HLabel 6700 4000 2    50   BiDi ~ 0
+SDA
+Text HLabel 6700 4100 2    50   Input ~ 0
+SCL
+$Comp
+L Power_Management:INA3221 U601
+U 1 1 66DA574A
+P 5800 3900
+F 0 "U601" H 5950 4650 50  0000 L CNN
+F 1 "INA3221" H 5950 4550 50  0000 L CNN
+F 2 "Package_DFN_QFN:Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm" H 5800 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina3221.pdf" H 5800 4600 50  0001 C CNN
+F 4 "817-6619" H 5800 3900 50  0001 C CNN "rs#"
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 66DA9317
+P 4750 1950
+AR Path="/5EF3A6E9/66DA9317" Ref="C?"  Part="1" 
+AR Path="/619269F2/66DA9317" Ref="C?"  Part="1" 
+AR Path="/619BA206/66DA9317" Ref="C?"  Part="1" 
+AR Path="/63D78862/66DA9317" Ref="C?"  Part="1" 
+AR Path="/626146B9/66DA9317" Ref="C?"  Part="1" 
+AR Path="/66D6AE94/66DA9317" Ref="C602"  Part="1" 
+AR Path="/62B94938/66DA9317" Ref="C602"  Part="1" 
+F 0 "C602" H 4635 2041 50  0000 R CNN
+F 1 "0.1uF" H 4635 1950 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 1800 50  0001 C CNN
+F 3 "~" H 4750 1950 50  0001 C CNN
+F 4 "0402, 16V" H 4635 1859 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 4750 1950 50  0001 C CNN "stock"
+	1    4750 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1800 4750 1750
+$Comp
+L Device:C C?
+U 1 1 66DA9AE7
+P 4050 1950
+AR Path="/5EF3A6E9/66DA9AE7" Ref="C?"  Part="1" 
+AR Path="/619269F2/66DA9AE7" Ref="C?"  Part="1" 
+AR Path="/619BA206/66DA9AE7" Ref="C?"  Part="1" 
+AR Path="/63D78862/66DA9AE7" Ref="C?"  Part="1" 
+AR Path="/626146B9/66DA9AE7" Ref="C?"  Part="1" 
+AR Path="/66D6AE94/66DA9AE7" Ref="C601"  Part="1" 
+AR Path="/62B94938/66DA9AE7" Ref="C601"  Part="1" 
+F 0 "C601" H 3935 2041 50  0000 R CNN
+F 1 "0.1uF" H 3935 1950 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4088 1800 50  0001 C CNN
+F 3 "~" H 4050 1950 50  0001 C CNN
+F 4 "0402, 16V" H 3935 1859 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 4050 1950 50  0001 C CNN "stock"
+	1    4050 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1800 4050 1750
+Wire Wire Line
+	4750 2100 4750 2150
+Wire Wire Line
+	4750 2150 4050 2150
+Wire Wire Line
+	3750 2150 3750 2200
+Wire Wire Line
+	4750 1750 4050 1750
+Wire Wire Line
+	3750 1750 3750 1700
+Connection ~ 4050 1750
+Wire Wire Line
+	4050 1750 3750 1750
+Wire Wire Line
+	4050 2100 4050 2150
+Connection ~ 4050 2150
+Wire Wire Line
+	4050 2150 3750 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 66DAAFEF
+P 3750 1700
+F 0 "#PWR?" H 3750 1550 50  0001 C CNN
+F 1 "+3V3" H 3765 1873 50  0000 C CNN
+F 2 "" H 3750 1700 50  0001 C CNN
+F 3 "" H 3750 1700 50  0001 C CNN
+	1    3750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66DAB5A0
+P 3750 2200
+F 0 "#PWR?" H 3750 1950 50  0001 C CNN
+F 1 "GND" H 3755 2027 50  0000 C CNN
+F 2 "" H 3750 2200 50  0001 C CNN
+F 3 "" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 66DAD526
+P 5700 2900
+F 0 "#PWR?" H 5700 2750 50  0001 C CNN
+F 1 "+3V3" H 5715 3073 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2900 5700 3000
+Wire Wire Line
+	5900 3200 5900 3000
+Wire Wire Line
+	5900 3000 5700 3000
+Connection ~ 5700 3000
+Wire Wire Line
+	5700 3000 5700 3200
+$Comp
+L power:GND #PWR?
+U 1 1 66DAE816
+P 5700 4700
+F 0 "#PWR?" H 5700 4450 50  0001 C CNN
+F 1 "GND" H 5705 4527 50  0000 C CNN
+F 2 "" H 5700 4700 50  0001 C CNN
+F 3 "" H 5700 4700 50  0001 C CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4700 5700 4600
+Wire Wire Line
+	5900 4500 5900 4600
+Wire Wire Line
+	5900 4600 5700 4600
+Connection ~ 5700 4600
+Wire Wire Line
+	5700 4600 5700 4500
+Wire Wire Line
+	6300 4100 6700 4100
+$Comp
+L power:GND #PWR?
+U 1 1 66DB30CD
+P 6500 4350
+F 0 "#PWR?" H 6500 4100 50  0001 C CNN
+F 1 "GND" H 6505 4177 50  0000 C CNN
+F 2 "" H 6500 4350 50  0001 C CNN
+F 3 "" H 6500 4350 50  0001 C CNN
+	1    6500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4350 6500 4200
+Wire Wire Line
+	6500 4200 6300 4200
+NoConn ~ 6300 3800
+NoConn ~ 6300 3700
+NoConn ~ 6300 3600
+NoConn ~ 6300 3500
+Wire Wire Line
+	5300 3500 5000 3500
+Wire Wire Line
+	5300 3600 5000 3600
+Wire Wire Line
+	5300 3800 5000 3800
+Wire Wire Line
+	5300 3900 5000 3900
+Wire Wire Line
+	5300 4100 5000 4100
+Wire Wire Line
+	5300 4200 5000 4200
+Text Notes 4900 5400 0    50   ~ 0
+I2C Address = 8'h80, 7'h40, 8'b1000_000X
+Wire Notes Line
+	6700 5250 6700 5500
+Wire Notes Line
+	6700 5500 4800 5500
+Wire Notes Line
+	4800 5500 4800 5250
+Wire Notes Line
+	4800 5250 6700 5250
+$EndSCHEMATC

@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "QSolid FMC+ SMA breakout"
+Date "2022-04-26"
+Rev "1.0"
+Comp "Karlsruhe Institute of Technology (KIT)"
+Comment1 "IPE"
+Comment2 "Luis Ardila"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KIT_Oscillator:AX7DAF3-xxxMHz U301
+U 1 1 64054F54
+P 5800 3850
+F 0 "U301" H 5850 4350 50  0000 L CNN
+F 1 "AX7DAF3-200.0000MHz" H 5850 4250 50  0000 L CNN
+F 2 "KIT_Oscillator:Oscillator_SMD_ABRACON_AX7_7.0x5.0mm_P2.54mm" H 5850 2900 50  0001 C CNN
+F 3 "https://abracon.com/datasheets/AX7_clearclock.pdf" H 5400 4550 50  0001 C CNN
+F 4 "CRYSTAL OSCILLATOR (XO) , LVDS, 3V3, 25pp, OE pin2 Active High " H 5800 3850 50  0001 C CNN "info"
+F 5 "171-0403 " H 5800 3850 50  0001 C CNN "rs#"
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 640593B7
+P 5800 4350
+F 0 "#PWR?" H 5800 4100 50  0001 C CNN
+F 1 "GND" H 5805 4177 50  0000 C CNN
+F 2 "" H 5800 4350 50  0001 C CNN
+F 3 "" H 5800 4350 50  0001 C CNN
+	1    5800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6405D8CC
+P 4850 3450
+AR Path="/63AB152A/6405D8CC" Ref="R?"  Part="1" 
+AR Path="/63D78862/6405D8CC" Ref="R301"  Part="1" 
+F 0 "R301" H 4920 3496 50  0000 L CNN
+F 1 "4.7k" H 4920 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 3450 50  0001 C CNN
+F 3 "~" H 4850 3450 50  0001 C CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3650 4850 3650
+Wire Wire Line
+	4850 3650 4850 3600
+Wire Wire Line
+	6400 3950 7150 3950
+Wire Wire Line
+	6400 3750 7150 3750
+Text HLabel 7150 3950 2    50   Output ~ 0
+OSC_CLK_200M_P
+Text HLabel 7150 3750 2    50   Output ~ 0
+OSC_CLK_200M_N
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 65605055
+P 3300 3250
+AR Path="/619BA206/65605055" Ref="L?"  Part="1" 
+AR Path="/63D78862/65605055" Ref="L301"  Part="1" 
+F 0 "L301" V 3615 3250 50  0000 C CNN
+F 1 "BLM18EG101TN1D" V 3524 3250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 3300 3250 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796747366430/ENFA0021.pdf" V 3440 3250 50  0001 C CNN
+F 4 "Murata Electronics" V 3300 3250 50  0001 C CNN "manf"
+F 5 "BLM18EG101TN1D" V 3300 3250 50  0001 C CNN "manf#"
+F 6 "Ferrite Bead, 0603, 2A, 45mOhm, 100Ohm @ 100MHz" V 3433 3250 50  0000 C CNN "info"
+F 7 "490-5978-1-ND" V 3300 3250 50  0001 C CNN "digikey#"
+F 8 "792-6246" V 3300 3250 50  0001 C CNN "rs#"
+	1    3300 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 656050F6
+P 2700 3450
+AR Path="/5EF3A6E9/656050F6" Ref="C?"  Part="1" 
+AR Path="/619269F2/656050F6" Ref="C?"  Part="1" 
+AR Path="/619BA206/656050F6" Ref="C?"  Part="1" 
+AR Path="/63D78862/656050F6" Ref="C301"  Part="1" 
+F 0 "C301" H 2585 3541 50  0000 R CNN
+F 1 "0.1uF" H 2585 3450 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 3300 50  0001 C CNN
+F 3 "~" H 2700 3450 50  0001 C CNN
+F 4 "0402, 16V" H 2585 3359 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 2700 3450 50  0001 C CNN "stock"
+	1    2700 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 656050FC
+P 2700 3600
+AR Path="/619BA206/656050FC" Ref="#PWR?"  Part="1" 
+AR Path="/63D78862/656050FC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 3350 50  0001 C CNN
+F 1 "GND" H 2705 3427 50  0000 C CNN
+F 2 "" H 2700 3600 50  0001 C CNN
+F 3 "" H 2700 3600 50  0001 C CNN
+	1    2700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3300 2700 3250
+Wire Wire Line
+	1950 3250 1950 3200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6560511E
+P 1950 3200
+AR Path="/619BA206/6560511E" Ref="#PWR?"  Part="1" 
+AR Path="/63D78862/6560511E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 3050 50  0001 C CNN
+F 1 "+3V3" H 1965 3373 50  0000 C CNN
+F 2 "" H 1950 3200 50  0001 C CNN
+F 3 "" H 1950 3200 50  0001 C CNN
+	1    1950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6560A65A
+P 3900 3450
+AR Path="/5EF3A6E9/6560A65A" Ref="C?"  Part="1" 
+AR Path="/619269F2/6560A65A" Ref="C?"  Part="1" 
+AR Path="/619BA206/6560A65A" Ref="C?"  Part="1" 
+AR Path="/63D78862/6560A65A" Ref="C302"  Part="1" 
+F 0 "C302" H 3785 3541 50  0000 R CNN
+F 1 "0.1uF" H 3785 3450 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 3300 50  0001 C CNN
+F 3 "~" H 3900 3450 50  0001 C CNN
+F 4 "0402, 16V" H 3785 3359 50  0000 R CNN "info"
+F 5 "AVT-IPE" H 3900 3450 50  0001 C CNN "stock"
+	1    3900 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6560A660
+P 3900 3600
+AR Path="/619BA206/6560A660" Ref="#PWR?"  Part="1" 
+AR Path="/63D78862/6560A660" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 3350 50  0001 C CNN
+F 1 "GND" H 3905 3427 50  0000 C CNN
+F 2 "" H 3900 3600 50  0001 C CNN
+F 3 "" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3300 3900 3250
+Wire Wire Line
+	1950 3250 2700 3250
+Wire Wire Line
+	3450 3250 3900 3250
+Connection ~ 2700 3250
+Wire Wire Line
+	2700 3250 3150 3250
+Connection ~ 3900 3250
+Wire Wire Line
+	5800 3350 5800 3250
+Wire Wire Line
+	3900 3250 4850 3250
+Wire Wire Line
+	4850 3300 4850 3250
+Connection ~ 4850 3250
+Wire Wire Line
+	4850 3250 5800 3250
+Text Label 5200 3250 0    50   ~ 0
+VIN
+Text Label 5000 3650 0    50   ~ 0
+OE
+$Comp
+L Device:R R?
+U 1 1 61BEA525
+P 4850 3850
+AR Path="/63AB152A/61BEA525" Ref="R?"  Part="1" 
+AR Path="/63D78862/61BEA525" Ref="R302"  Part="1" 
+F 0 "R302" H 4920 3941 50  0000 L CNN
+F 1 "4.7k" H 4920 3850 50  0000 L CNN
+F 2 "KIT_Resistor_SMD:R_0603_1608Metric_DNP" V 4780 3850 50  0001 C CNN
+F 3 "~" H 4850 3850 50  0001 C CNN
+F 4 "DNP" H 4920 3759 50  0000 L CNN "DNP"
+	1    4850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3700 4850 3650
+Connection ~ 4850 3650
+$Comp
+L power:GND #PWR?
+U 1 1 61BEAE46
+P 4850 4000
+F 0 "#PWR?" H 4850 3750 50  0001 C CNN
+F 1 "GND" H 4855 3827 50  0000 C CNN
+F 2 "" H 4850 4000 50  0001 C CNN
+F 3 "" H 4850 4000 50  0001 C CNN
+	1    4850 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
