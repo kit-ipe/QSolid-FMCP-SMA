@@ -10,6 +10,7 @@ fp-info-cache
 
 # backup files
 *-bak
+*.bkp
 
 # external info files
 info/
