@@ -4,8 +4,8 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "QSolid FMC+ SMA breakout"
-Date "2022-11-30"
+Title "FMC+ SMA breakout"
+Date "2022-12-07"
 Rev "1.0"
 Comp "Karlsruhe Institute of Technology (KIT)"
 Comment1 "Institute for Data Processing and Electronics (IPE)"
@@ -1771,10 +1771,6 @@ Wire Notes Line
 	7650 15300 7650 14750
 Wire Notes Line
 	7650 14750 8100 14750
-Text HLabel 20850 1900 2    50   Input ~ 0
-PG_M2C
-Wire Wire Line
-	20450 1900 20850 1900
 Wire Wire Line
 	14800 4800 14900 4800
 Wire Wire Line
@@ -1792,9 +1788,9 @@ NoConn ~ 6700 8750
 NoConn ~ 6700 8350
 NoConn ~ 5000 8450
 NoConn ~ 5000 8550
-Text Label 10550 15250 2    50   ~ 0
+Text Label 10750 15250 2    50   ~ 0
 SCL
-Text Label 10550 15150 2    50   ~ 0
+Text Label 10750 15150 2    50   ~ 0
 SDA
 NoConn ~ 12700 8950
 NoConn ~ 12700 9050
@@ -2044,10 +2040,6 @@ Text Label 12350 4900 0    50   ~ 0
 SDA
 Text Label 12350 4800 0    50   ~ 0
 SCL
-Text HLabel 10750 15250 2    50   Output ~ 0
-SCL
-Text HLabel 10750 15150 2    50   BiDi ~ 0
-SDA
 Text Label 8400 3800 0    50   ~ 0
 DPCLK_M2C_R_P1
 Text Label 8400 3900 0    50   ~ 0
@@ -2428,7 +2420,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/5
 $EndComp
 NoConn ~ 15400 9100
 NoConn ~ 15400 9000
-NoConn ~ 17200 12200
 NoConn ~ 17200 12100
 NoConn ~ 17200 12000
 NoConn ~ 17200 11700
@@ -3315,4 +3306,36 @@ F 3 "" H 6650 15050 50  0001 C CNN
 	1    6650 15050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 65461363
+P 21300 1700
+AR Path="/619BA206/65461363" Ref="R?"  Part="1" 
+AR Path="/619269F2/65461363" Ref="R?"  Part="1" 
+AR Path="/626146B8/65461363" Ref="R?"  Part="1" 
+AR Path="/65461363" Ref="R113"  Part="1" 
+F 0 "R113" H 21370 1746 50  0000 L CNN
+F 1 "4.7k" H 21370 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21230 1700 50  0001 C CNN
+F 3 "~" H 21300 1700 50  0001 C CNN
+	1    21300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21300 1850 21300 1900
+Wire Wire Line
+	21300 1900 20450 1900
+$Comp
+L KIT_Power:+3V3_FMCP #PWR?
+U 1 1 655BE826
+P 21300 1550
+F 0 "#PWR?" H 21300 1400 50  0001 C CNN
+F 1 "+3V3_FMCP" H 21315 1723 50  0000 C CNN
+F 2 "" H 21300 1550 50  0001 C CNN
+F 3 "" H 21300 1550 50  0001 C CNN
+	1    21300 1550
+	1    0    0    -1  
+$EndComp
+Text Label 20700 1900 0    50   ~ 0
+PG_M2C
 $EndSCHEMATC
