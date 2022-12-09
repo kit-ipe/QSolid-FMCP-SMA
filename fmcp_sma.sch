@@ -5,12 +5,12 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "FMC+ SMA breakout"
-Date "2022-12-07"
+Date "2022-12-09"
 Rev "1.0"
 Comp "Karlsruhe Institute of Technology (KIT)"
 Comment1 "Institute for Data Processing and Electronics (IPE)"
-Comment2 "Luis Ardila"
-Comment3 ""
+Comment2 "Robert Gartmann, Lukas Scheller"
+Comment3 "Luis Ardila, Marvin Fuchs, "
 Comment4 ""
 $EndDescr
 $Comp
@@ -3338,4 +3338,72 @@ F 3 "" H 21300 1550 50  0001 C CNN
 $EndComp
 Text Label 20700 1900 0    50   ~ 0
 PG_M2C
+$Comp
+L Connector:Conn_Coaxial J121
+U 1 1 63992A69
+P 22300 12000
+F 0 "J121" H 22400 11929 50  0000 L CNN
+F 1 "Conn_Coaxial" H 22400 11884 50  0001 L CNN
+F 2 "KIT_Connector:SF2921-61345-1S" H 22300 12000 50  0001 C CNN
+F 3 " ~" H 22300 12000 50  0001 C CNN
+F 4 "" H 22300 12000 50  0001 C CNN "manf"
+F 5 "" H 22300 12000 50  0001 C CNN "manf#"
+F 6 "" H 22300 12000 50  0001 C CNN "mouser#"
+F 7 "" H 22300 12000 50  0001 C CNN "digikey#"
+F 8 "253-0085" H 22300 12000 50  0001 C CNN "rs#"
+	1    22300 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J120
+U 1 1 63992A74
+P 19100 12000
+F 0 "J120" H 19200 11929 50  0000 L CNN
+F 1 "Conn_Coaxial" H 19200 11884 50  0001 L CNN
+F 2 "KIT_Connector:SF2921-61345-1S" H 19100 12000 50  0001 C CNN
+F 3 " ~" H 19100 12000 50  0001 C CNN
+F 4 "" H 19100 12000 50  0001 C CNN "manf"
+F 5 "" H 19100 12000 50  0001 C CNN "manf#"
+F 6 "" H 19100 12000 50  0001 C CNN "mouser#"
+F 7 "" H 19100 12000 50  0001 C CNN "digikey#"
+F 8 "253-0085" H 19100 12000 50  0001 C CNN "rs#"
+	1    19100 12000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63992A7A
+P 19100 12200
+F 0 "#PWR?" H 19100 11950 50  0001 C CNN
+F 1 "GND" H 19105 12027 50  0000 C CNN
+F 2 "" H 19100 12200 50  0001 C CNN
+F 3 "" H 19100 12200 50  0001 C CNN
+	1    19100 12200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63992A80
+P 22300 12200
+F 0 "#PWR?" H 22300 11950 50  0001 C CNN
+F 1 "GND" H 22305 12027 50  0000 C CNN
+F 2 "" H 22300 12200 50  0001 C CNN
+F 3 "" H 22300 12200 50  0001 C CNN
+	1    22300 12200
+	1    0    0    -1  
+$EndComp
+Text Notes 20000 11750 0    98   ~ 0
+50 Ohm Microstrip
+Text Label 21000 12000 2    50   ~ 0
+Test_50_Ohm
+Wire Notes Line
+	18650 11500 22850 11500
+Wire Notes Line
+	18650 12600 22850 12600
+Wire Wire Line
+	19300 12000 22100 12000
+Wire Notes Line
+	22850 12600 22850 11500
+Wire Notes Line
+	18650 11500 18650 12600
 $EndSCHEMATC
