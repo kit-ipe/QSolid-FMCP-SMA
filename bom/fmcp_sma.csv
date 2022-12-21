@@ -1,0 +1,18 @@
+refs,qty, Value, Footprint, Datasheet, rs#, info, stock, DNP, manf, manf#
+C101 C102 C103 C104 C105 C106 C107 C108 ,8,0.1uF,Capacitor_SMD:C_0201_0603Metric,~,185-1596,"0201, 25V, X5R, 10%",Luis,,,
+C109 ,1,1uF,Capacitor_SMD:C_0603_1608Metric,~,,"0402, 16V",AVT-IPE,,,
+C118 ,1,0.1uF,Capacitor_SMD:C_0603_1608Metric,~,,"0402, 16V",AVT-IPE,,,
+FID101 FID102 FID103 FID104 FID105 FID106 ,6,Fiducial,Fiducial:Fiducial_1mm_Mask2mm,~,,,,,,
+G101 ,1,LA_LOGO,KIT_Graphic:LA_LOGO_MASK_NoName,,,,,,,
+G102 ,1,KIT_LOGO,KIT_Graphic:KIT_LOGO_MASK_4.1x1.6mm,,,,,,,
+H102 H104 ,2,M2.5,MountingHole:MountingHole_2.7mm_M2.5,~,,,,,,
+H101 H103 ,2,M2.5_Pad,MountingHole:MountingHole_2.7mm_M2.5_Pad,~,,,,,,
+J101 J102 J104 J105 J106 J107 J116 J117 J118 J119 J120 J121 ,12,Conn_Coaxial,KIT_Connector:SF2921-61345-1S, ~,,,,,,
+J103 ,1,FMCP_VITA57.4,KIT_Connector:FMC_SEAM_ASP_184330_BGA-560_40x14_55.778x19.76mm,http://suddendocs.samtec.com/prints/asp-188588-01-mkt.pdf,,,,,,
+J108 J109 J110 J111 J112 J113 J114 J115 ,8,Conn_Coaxial,Connector_Coaxial:SMA_Amphenol_132134_Vertical, ~,253-0085,,,,Amphenol RF,132134RP
+J122 ,1,Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,,,
+R101 R102 R103 R104 R105 R106 R107 R108 R109 R112 ,10,0,Resistor_SMD:R_0201_0603Metric,~,,,AVT-IPE,,,
+R110 R111 ,2,4.7k,KIT_Resistor_SMD:R_0603_1608Metric_DNP,~,,,AVT-IPE,DNP,,
+R113 ,1,4.7k,Resistor_SMD:R_0603_1608Metric,~,,,AVT-IPE,,,
+TP101 TP102 TP104 TP105 ,4,TestPoint,TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm,~, 262-2034,,,,,
+U101 ,1,M24C02-FDW,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf,190-7599,,,,    STMicroelectronics,M24C02-FDW6TP

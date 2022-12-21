@@ -1,0 +1,2717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/lardilap/Projects/PCB/QSolid/qsolid-fmcp-sma/fmcp_sma.sch</source>
+    <date>Wed 21 Dec 2022 12:55:41 PM CET</date>
+    <tool>Eeschema 5.1.12-84ad8e8a86~92~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FMC+ SMA breakout</title>
+        <company>Karlsruhe Institute of Technology (KIT)</company>
+        <rev>1.0</rev>
+        <date>2022-12-09</date>
+        <source>fmcp_sma.sch</source>
+        <comment number="1" value="Institute for Data Processing and Electronics (IPE)"/>
+        <comment number="2" value="Robert Gartmann, Lukas Scheller"/>
+        <comment number="3" value="Luis Ardila, Marvin Fuchs, "/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H103">
+      <value>M2.5_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E42431F</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E424A3B</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E424A41</tstamp>
+    </comp>
+    <comp ref="FID101">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7DB8DE</tstamp>
+    </comp>
+    <comp ref="FID102">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7DBFC6</tstamp>
+    </comp>
+    <comp ref="FID103">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7DC2D6</tstamp>
+    </comp>
+    <comp ref="G102">
+      <value>KIT_LOGO</value>
+      <footprint>KIT_Graphic:KIT_LOGO_MASK_4.1x1.6mm</footprint>
+      <libsource lib="KIT_Graphic" part="KIT_LOGO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7E615F</tstamp>
+    </comp>
+    <comp ref="G101">
+      <value>LA_LOGO</value>
+      <footprint>KIT_Graphic:LA_LOGO_MASK_NoName</footprint>
+      <libsource lib="KIT_Graphic" part="LA_LOGO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7E8B14</tstamp>
+    </comp>
+    <comp ref="FID104">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F77BC</tstamp>
+    </comp>
+    <comp ref="FID105">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F77C2</tstamp>
+    </comp>
+    <comp ref="FID106">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F77C8</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>M2.5_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E423097</tstamp>
+    </comp>
+    <comp ref="TP104">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="rs#"> 262-2034</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B080B6</tstamp>
+    </comp>
+    <comp ref="TP105">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="rs#"> 262-2034</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B0978A</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6227E31A</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6227E324</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>FMCP_VITA57.4</value>
+      <footprint>KIT_Connector:FMC_SEAM_ASP_184330_BGA-560_40x14_55.778x19.76mm</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/asp-188588-01-mkt.pdf</datasheet>
+      <libsource lib="KIT_Connector" part="FMCP_VITA57.4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61928366</tstamp>
+    </comp>
+    <comp ref="C118">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0402, 16V</field>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626146F0</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>4.7k</value>
+      <footprint>KIT_Resistor_SMD:R_0603_1608Metric_DNP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>645FB225</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>4.7k</value>
+      <footprint>KIT_Resistor_SMD:R_0603_1608Metric_DNP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626146CD</tstamp>
+    </comp>
+    <comp ref="J108">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67E49511</tstamp>
+    </comp>
+    <comp ref="J109">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67E4951C</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68207249</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68207254</tstamp>
+    </comp>
+    <comp ref="J110">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6877B263</tstamp>
+    </comp>
+    <comp ref="J111">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6877B26E</tstamp>
+    </comp>
+    <comp ref="J107">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68028026</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6802801B</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6795F92E</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6795F925</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>M24C02-FDW</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf</datasheet>
+      <fields>
+        <field name="manf">    STMicroelectronics</field>
+        <field name="manf#">M24C02-FDW6TP</field>
+        <field name="rs#">190-7599</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="M24C02-FDW" description="2Kb (256x8) I2C Serial EEPROM, 1.6-5.5V, TSSOP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>698979DD</tstamp>
+    </comp>
+    <comp ref="J114">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64185B37</tstamp>
+    </comp>
+    <comp ref="J115">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64185B2C</tstamp>
+    </comp>
+    <comp ref="J112">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A21947</tstamp>
+    </comp>
+    <comp ref="J113">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="manf">Amphenol RF</field>
+        <field name="manf#">132134RP</field>
+        <field name="rs#">253-0085</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A2195E</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A21967</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A21970</tstamp>
+    </comp>
+    <comp ref="J117">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EBA57A</tstamp>
+    </comp>
+    <comp ref="J116">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EBA585</tstamp>
+    </comp>
+    <comp ref="J119">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6402F8D4</tstamp>
+    </comp>
+    <comp ref="J118">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6402F8DF</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A19F33</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B18AD4</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67F3248B</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67F32496</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6402D1B8</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6402D1BE</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643E556D</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643E5573</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64A52D94</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64A52D9A</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64E6BF22</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0201, 25V, X5R, 10%</field>
+        <field name="rs#">185-1596</field>
+        <field name="stock">Luis</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64E6BF2B</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65070288</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6507028E</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="info">0402, 16V</field>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6522D199</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="stock">AVT-IPE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65461363</tstamp>
+    </comp>
+    <comp ref="J121">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63992A69</tstamp>
+    </comp>
+    <comp ref="J120">
+      <value>Conn_Coaxial</value>
+      <footprint>KIT_Connector:SF2921-61345-1S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63992A74</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="rs#"> 262-2034</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A44A99</tstamp>
+    </comp>
+    <comp ref="J122">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B55754</tstamp>
+    </comp>
+    <comp ref="TP102">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="rs#"> 262-2034</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641AA405</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KIT_Connector" part="FMCP_VITA57.4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FMCP_VITA57.4</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A2" name="DP1_M2C_P" type="input"/>
+        <pin num="A3" name="DP1_M2C_N" type="input"/>
+        <pin num="A4" name="GND" type="power_in"/>
+        <pin num="A5" name="GND" type="power_in"/>
+        <pin num="A6" name="DP2_M2C_P" type="input"/>
+        <pin num="A7" name="DP2_M2C_N" type="input"/>
+        <pin num="A8" name="GND" type="power_in"/>
+        <pin num="A9" name="GND" type="power_in"/>
+        <pin num="A10" name="DP3_M2C_P" type="input"/>
+        <pin num="A11" name="DP3_M2C_N" type="input"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="A13" name="GND" type="power_in"/>
+        <pin num="A14" name="DP4_M2C_P" type="input"/>
+        <pin num="A15" name="DP4_M2C_N" type="input"/>
+        <pin num="A16" name="GND" type="power_in"/>
+        <pin num="A17" name="GND" type="power_in"/>
+        <pin num="A18" name="DP5_M2C_P" type="input"/>
+        <pin num="A19" name="DP5_M2C_N" type="input"/>
+        <pin num="A20" name="GND" type="power_in"/>
+        <pin num="A21" name="GND" type="power_in"/>
+        <pin num="A22" name="DP1_C2M_P" type="output"/>
+        <pin num="A23" name="DP1_C2M_N" type="output"/>
+        <pin num="A24" name="GND" type="power_in"/>
+        <pin num="A25" name="GND" type="power_in"/>
+        <pin num="A26" name="DP2_C2M_P" type="output"/>
+        <pin num="A27" name="DP2_C2M_N" type="output"/>
+        <pin num="A28" name="GND" type="power_in"/>
+        <pin num="A29" name="GND" type="power_in"/>
+        <pin num="A30" name="DP3_C2M_P" type="output"/>
+        <pin num="A31" name="DP3_C2M_N" type="output"/>
+        <pin num="A32" name="GND" type="power_in"/>
+        <pin num="A33" name="GND" type="power_in"/>
+        <pin num="A34" name="DP4_C2M_P" type="output"/>
+        <pin num="A35" name="DP4_C2M_N" type="output"/>
+        <pin num="A36" name="GND" type="power_in"/>
+        <pin num="A37" name="GND" type="power_in"/>
+        <pin num="A38" name="DP5_C2M_P" type="output"/>
+        <pin num="A39" name="DP5_C2M_N" type="output"/>
+        <pin num="A40" name="GND" type="power_in"/>
+        <pin num="B1" name="CLK_DIR" type="input"/>
+        <pin num="B2" name="GND" type="power_in"/>
+        <pin num="B3" name="GND" type="power_in"/>
+        <pin num="B4" name="DP9_M2C_P" type="input"/>
+        <pin num="B5" name="DP9_M2C_N" type="input"/>
+        <pin num="B6" name="GND" type="power_in"/>
+        <pin num="B7" name="GND" type="power_in"/>
+        <pin num="B8" name="DP8_M2C_P" type="input"/>
+        <pin num="B9" name="DP8_M2C_N" type="input"/>
+        <pin num="B10" name="GND" type="power_in"/>
+        <pin num="B11" name="GND" type="power_in"/>
+        <pin num="B12" name="DP7_M2C_P" type="input"/>
+        <pin num="B13" name="DP7_M2C_N" type="input"/>
+        <pin num="B14" name="GND" type="power_in"/>
+        <pin num="B15" name="GND" type="power_in"/>
+        <pin num="B16" name="DP6_M2C_P" type="input"/>
+        <pin num="B17" name="DP6_M2C_N" type="input"/>
+        <pin num="B18" name="GND" type="power_in"/>
+        <pin num="B19" name="GND" type="power_in"/>
+        <pin num="B20" name="GBTCLK1_M2C_P" type="input"/>
+        <pin num="B21" name="GBTCLK1_M2C_N" type="input"/>
+        <pin num="B22" name="GND" type="power_in"/>
+        <pin num="B23" name="GND" type="power_in"/>
+        <pin num="B24" name="DP9_C2M_P" type="output"/>
+        <pin num="B25" name="DP9_C2M_N" type="output"/>
+        <pin num="B26" name="GND" type="power_in"/>
+        <pin num="B27" name="GND" type="power_in"/>
+        <pin num="B28" name="DP8_C2M_P" type="output"/>
+        <pin num="B29" name="DP8_C2M_N" type="output"/>
+        <pin num="B30" name="GND" type="power_in"/>
+        <pin num="B31" name="GND" type="power_in"/>
+        <pin num="B32" name="DP7_C2M_P" type="output"/>
+        <pin num="B33" name="DP7_C2M_N" type="output"/>
+        <pin num="B34" name="GND" type="power_in"/>
+        <pin num="B35" name="GND" type="power_in"/>
+        <pin num="B36" name="DP6_C2M_P" type="output"/>
+        <pin num="B37" name="DP6_C2M_N" type="output"/>
+        <pin num="B38" name="GND" type="power_in"/>
+        <pin num="B39" name="GND" type="power_in"/>
+        <pin num="B40" name="RES0" type="passive"/>
+        <pin num="C1" name="GND" type="power_in"/>
+        <pin num="C2" name="DP0_C2M_P" type="output"/>
+        <pin num="C3" name="DP0_C2M_N" type="output"/>
+        <pin num="C4" name="GND" type="power_in"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="DP0_M2C_P" type="input"/>
+        <pin num="C7" name="DP0_M2C_N" type="input"/>
+        <pin num="C8" name="GND" type="power_in"/>
+        <pin num="C9" name="GND" type="power_in"/>
+        <pin num="C10" name="LA06_P" type="BiDi"/>
+        <pin num="C11" name="LA06_N" type="BiDi"/>
+        <pin num="C12" name="GND" type="power_in"/>
+        <pin num="C13" name="GND" type="power_in"/>
+        <pin num="C14" name="LA10_P" type="BiDi"/>
+        <pin num="C15" name="LA10_N" type="BiDi"/>
+        <pin num="C16" name="GND" type="power_in"/>
+        <pin num="C17" name="GND" type="power_in"/>
+        <pin num="C18" name="LA14_P" type="BiDi"/>
+        <pin num="C19" name="LA14_N" type="BiDi"/>
+        <pin num="C20" name="GND" type="power_in"/>
+        <pin num="C21" name="GND" type="power_in"/>
+        <pin num="C22" name="LA18_P_CC" type="BiDi"/>
+        <pin num="C23" name="LA18_N_CC" type="BiDi"/>
+        <pin num="C24" name="GND" type="power_in"/>
+        <pin num="C25" name="GND" type="power_in"/>
+        <pin num="C26" name="LA27_P" type="BiDi"/>
+        <pin num="C27" name="LA27_N" type="BiDi"/>
+        <pin num="C28" name="GND" type="power_in"/>
+        <pin num="C29" name="GND" type="power_in"/>
+        <pin num="C30" name="SCL" type="input"/>
+        <pin num="C31" name="SDA" type="BiDi"/>
+        <pin num="C32" name="GND" type="power_in"/>
+        <pin num="C33" name="GND" type="power_in"/>
+        <pin num="C34" name="GA0" type="output"/>
+        <pin num="C35" name="12P0V" type="power_in"/>
+        <pin num="C36" name="GND" type="power_in"/>
+        <pin num="C37" name="12P0V" type="power_in"/>
+        <pin num="C38" name="GND" type="power_in"/>
+        <pin num="C39" name="3P3V" type="power_in"/>
+        <pin num="C40" name="GND" type="power_in"/>
+        <pin num="D1" name="PG_C2M" type="output"/>
+        <pin num="D2" name="GND" type="power_in"/>
+        <pin num="D3" name="GND" type="power_in"/>
+        <pin num="D4" name="GBTCLK0_M2C_P" type="input"/>
+        <pin num="D5" name="GBTCLK0_M2C_N" type="input"/>
+        <pin num="D6" name="GND" type="power_in"/>
+        <pin num="D7" name="GND" type="power_in"/>
+        <pin num="D8" name="LA01_P_CC" type="BiDi"/>
+        <pin num="D9" name="LA01_N_CC" type="BiDi"/>
+        <pin num="D10" name="GND" type="power_in"/>
+        <pin num="D11" name="LA05_P" type="BiDi"/>
+        <pin num="D12" name="LA05_N" type="BiDi"/>
+        <pin num="D13" name="GND" type="power_in"/>
+        <pin num="D14" name="LA09_P" type="BiDi"/>
+        <pin num="D15" name="LA09_N" type="BiDi"/>
+        <pin num="D16" name="GND" type="power_in"/>
+        <pin num="D17" name="LA13_P" type="BiDi"/>
+        <pin num="D18" name="LA13_N" type="BiDi"/>
+        <pin num="D19" name="GND" type="power_in"/>
+        <pin num="D20" name="LA17_P_CC" type="BiDi"/>
+        <pin num="D21" name="LA17_N_CC" type="BiDi"/>
+        <pin num="D22" name="GND" type="power_in"/>
+        <pin num="D23" name="LA23_P" type="BiDi"/>
+        <pin num="D24" name="LA23_N" type="BiDi"/>
+        <pin num="D25" name="GND" type="power_in"/>
+        <pin num="D26" name="LA26_P" type="BiDi"/>
+        <pin num="D27" name="LA26_N" type="BiDi"/>
+        <pin num="D28" name="GND" type="power_in"/>
+        <pin num="D29" name="TCK" type="output"/>
+        <pin num="D30" name="TDI" type="output"/>
+        <pin num="D31" name="TDO" type="input"/>
+        <pin num="D32" name="3P3VAUX" type="power_in"/>
+        <pin num="D33" name="TMS" type="output"/>
+        <pin num="D34" name="TRST_L" type="output"/>
+        <pin num="D35" name="GA1" type="output"/>
+        <pin num="D36" name="3P3V" type="power_in"/>
+        <pin num="D37" name="GND" type="power_in"/>
+        <pin num="D38" name="3P3V" type="power_in"/>
+        <pin num="D39" name="GND" type="power_in"/>
+        <pin num="D40" name="3P3V" type="power_in"/>
+        <pin num="E1" name="GND" type="power_in"/>
+        <pin num="E2" name="HA01_P_CC" type="BiDi"/>
+        <pin num="E3" name="HA01_N_CC" type="BiDi"/>
+        <pin num="E4" name="GND" type="power_in"/>
+        <pin num="E5" name="GND" type="power_in"/>
+        <pin num="E6" name="HA05_P" type="BiDi"/>
+        <pin num="E7" name="HA05_N" type="BiDi"/>
+        <pin num="E8" name="GND" type="power_in"/>
+        <pin num="E9" name="HA09_P" type="BiDi"/>
+        <pin num="E10" name="HA09_N" type="BiDi"/>
+        <pin num="E11" name="GND" type="power_in"/>
+        <pin num="E12" name="HA13_P" type="BiDi"/>
+        <pin num="E13" name="HA13_N" type="BiDi"/>
+        <pin num="E14" name="GND" type="power_in"/>
+        <pin num="E15" name="HA16_P" type="BiDi"/>
+        <pin num="E16" name="HA16_N" type="BiDi"/>
+        <pin num="E17" name="GND" type="power_in"/>
+        <pin num="E18" name="HA20_P" type="BiDi"/>
+        <pin num="E19" name="HA20_N" type="BiDi"/>
+        <pin num="E20" name="GND" type="power_in"/>
+        <pin num="E21" name="HB03_P" type="BiDi"/>
+        <pin num="E22" name="HB03_N" type="BiDi"/>
+        <pin num="E23" name="GND" type="power_in"/>
+        <pin num="E24" name="HB05_P" type="BiDi"/>
+        <pin num="E25" name="HB05_N" type="BiDi"/>
+        <pin num="E26" name="GND" type="power_in"/>
+        <pin num="E27" name="HB09_P" type="BiDi"/>
+        <pin num="E28" name="HB09_N" type="BiDi"/>
+        <pin num="E29" name="GND" type="power_in"/>
+        <pin num="E30" name="HB13_P" type="BiDi"/>
+        <pin num="E31" name="HB13_N" type="BiDi"/>
+        <pin num="E32" name="GND" type="power_in"/>
+        <pin num="E33" name="HB19_P" type="BiDi"/>
+        <pin num="E34" name="HB19_N" type="BiDi"/>
+        <pin num="E35" name="GND" type="power_in"/>
+        <pin num="E36" name="HB21_P" type="BiDi"/>
+        <pin num="E37" name="HB21_N" type="BiDi"/>
+        <pin num="E38" name="GND" type="power_in"/>
+        <pin num="E39" name="VADJ" type="power_in"/>
+        <pin num="E40" name="GND" type="power_in"/>
+        <pin num="F1" name="PG_M2C" type="input"/>
+        <pin num="F2" name="GND" type="power_in"/>
+        <pin num="F3" name="GND" type="power_in"/>
+        <pin num="F4" name="HA00_P_CC" type="BiDi"/>
+        <pin num="F5" name="HA00_N_CC" type="BiDi"/>
+        <pin num="F6" name="GND" type="power_in"/>
+        <pin num="F7" name="HA04_P" type="BiDi"/>
+        <pin num="F8" name="HA04_N" type="BiDi"/>
+        <pin num="F9" name="GND" type="power_in"/>
+        <pin num="F10" name="HA08_P" type="BiDi"/>
+        <pin num="F11" name="HA08_N" type="BiDi"/>
+        <pin num="F12" name="GND" type="power_in"/>
+        <pin num="F13" name="HA12_P" type="BiDi"/>
+        <pin num="F14" name="HA12_N" type="BiDi"/>
+        <pin num="F15" name="GND" type="power_in"/>
+        <pin num="F16" name="HA15_P" type="BiDi"/>
+        <pin num="F17" name="HA15_N" type="BiDi"/>
+        <pin num="F18" name="GND" type="power_in"/>
+        <pin num="F19" name="HA19_P" type="BiDi"/>
+        <pin num="F20" name="HA19_N" type="BiDi"/>
+        <pin num="F21" name="GND" type="power_in"/>
+        <pin num="F22" name="HB02_P" type="BiDi"/>
+        <pin num="F23" name="HB02_N" type="BiDi"/>
+        <pin num="F24" name="GND" type="power_in"/>
+        <pin num="F25" name="HB04_P" type="BiDi"/>
+        <pin num="F26" name="HB04_N" type="BiDi"/>
+        <pin num="F27" name="GND" type="power_in"/>
+        <pin num="F28" name="HB08_P" type="BiDi"/>
+        <pin num="F29" name="HB08_N" type="BiDi"/>
+        <pin num="F30" name="GND" type="power_in"/>
+        <pin num="F31" name="HB12_P" type="BiDi"/>
+        <pin num="F32" name="HB12_N" type="BiDi"/>
+        <pin num="F33" name="GND" type="power_in"/>
+        <pin num="F34" name="HB16_P" type="BiDi"/>
+        <pin num="F35" name="HB16_N" type="BiDi"/>
+        <pin num="F36" name="GND" type="power_in"/>
+        <pin num="F37" name="HB20_P" type="BiDi"/>
+        <pin num="F38" name="HB20_N" type="BiDi"/>
+        <pin num="F39" name="GND" type="power_in"/>
+        <pin num="F40" name="VADJ" type="power_in"/>
+        <pin num="G1" name="GND" type="power_out"/>
+        <pin num="G2" name="CLK1_M2C_P" type="input"/>
+        <pin num="G3" name="CLK1_M2C_N" type="input"/>
+        <pin num="G4" name="GND" type="power_in"/>
+        <pin num="G5" name="GND" type="power_in"/>
+        <pin num="G6" name="LA00_P_CC" type="BiDi"/>
+        <pin num="G7" name="LA00_N_CC" type="BiDi"/>
+        <pin num="G8" name="GND" type="power_in"/>
+        <pin num="G9" name="LA03_P" type="BiDi"/>
+        <pin num="G10" name="LA03_N" type="BiDi"/>
+        <pin num="G11" name="GND" type="power_in"/>
+        <pin num="G12" name="LA08_P" type="BiDi"/>
+        <pin num="G13" name="LA08_N" type="BiDi"/>
+        <pin num="G14" name="GND" type="power_in"/>
+        <pin num="G15" name="LA12_P" type="BiDi"/>
+        <pin num="G16" name="LA12_N" type="BiDi"/>
+        <pin num="G17" name="GND" type="power_in"/>
+        <pin num="G18" name="LA16_P" type="BiDi"/>
+        <pin num="G19" name="LA16_N" type="BiDi"/>
+        <pin num="G20" name="GND" type="power_in"/>
+        <pin num="G21" name="LA20_P" type="BiDi"/>
+        <pin num="G22" name="LA20_N" type="BiDi"/>
+        <pin num="G23" name="GND" type="power_in"/>
+        <pin num="G24" name="LA22_P" type="BiDi"/>
+        <pin num="G25" name="LA22_N" type="BiDi"/>
+        <pin num="G26" name="GND" type="power_in"/>
+        <pin num="G27" name="LA25_P" type="BiDi"/>
+        <pin num="G28" name="LA25_N" type="BiDi"/>
+        <pin num="G29" name="GND" type="power_in"/>
+        <pin num="G30" name="LA29_P" type="BiDi"/>
+        <pin num="G31" name="LA29_N" type="BiDi"/>
+        <pin num="G32" name="GND" type="power_in"/>
+        <pin num="G33" name="LA31_P" type="BiDi"/>
+        <pin num="G34" name="LA31_N" type="BiDi"/>
+        <pin num="G35" name="GND" type="power_in"/>
+        <pin num="G36" name="LA33_P" type="BiDi"/>
+        <pin num="G37" name="LA33_N" type="BiDi"/>
+        <pin num="G38" name="GND" type="power_in"/>
+        <pin num="G39" name="VADJ" type="power_in"/>
+        <pin num="G40" name="GND" type="power_in"/>
+        <pin num="H1" name="VREF_A_M2C" type="power_in"/>
+        <pin num="H2" name="PRSNT_M2C_L" type="input"/>
+        <pin num="H3" name="GND" type="power_in"/>
+        <pin num="H4" name="CLK0_M2C_P" type="input"/>
+        <pin num="H5" name="CLK0_M2C_N" type="input"/>
+        <pin num="H6" name="GND" type="power_in"/>
+        <pin num="H7" name="LA02_P" type="BiDi"/>
+        <pin num="H8" name="LA02_N" type="BiDi"/>
+        <pin num="H9" name="GND" type="power_in"/>
+        <pin num="H10" name="LA04_P" type="BiDi"/>
+        <pin num="H11" name="LA04_N" type="BiDi"/>
+        <pin num="H12" name="GND" type="power_in"/>
+        <pin num="H13" name="LA07_P" type="BiDi"/>
+        <pin num="H14" name="LA07_N" type="BiDi"/>
+        <pin num="H15" name="GND" type="power_in"/>
+        <pin num="H16" name="LA11_P" type="BiDi"/>
+        <pin num="H17" name="LA11_N" type="BiDi"/>
+        <pin num="H18" name="GND" type="power_in"/>
+        <pin num="H19" name="LA15_P" type="BiDi"/>
+        <pin num="H20" name="LA15_N" type="BiDi"/>
+        <pin num="H21" name="GND" type="power_in"/>
+        <pin num="H22" name="LA19_P" type="BiDi"/>
+        <pin num="H23" name="LA19_N" type="BiDi"/>
+        <pin num="H24" name="GND" type="power_in"/>
+        <pin num="H25" name="LA21_P" type="BiDi"/>
+        <pin num="H26" name="LA21_N" type="BiDi"/>
+        <pin num="H27" name="GND" type="power_in"/>
+        <pin num="H28" name="LA24_P" type="BiDi"/>
+        <pin num="H29" name="LA24_N" type="BiDi"/>
+        <pin num="H30" name="GND" type="power_in"/>
+        <pin num="H31" name="LA28_P" type="BiDi"/>
+        <pin num="H32" name="LA28_N" type="BiDi"/>
+        <pin num="H33" name="GND" type="power_in"/>
+        <pin num="H34" name="LA30_P" type="BiDi"/>
+        <pin num="H35" name="LA30_N" type="BiDi"/>
+        <pin num="H36" name="GND" type="power_in"/>
+        <pin num="H37" name="LA32_P" type="BiDi"/>
+        <pin num="H38" name="LA32_N" type="BiDi"/>
+        <pin num="H39" name="GND" type="power_in"/>
+        <pin num="H40" name="VADJ" type="power_in"/>
+        <pin num="J1" name="GND" type="power_in"/>
+        <pin num="J2" name="CLK3_BIDIR_P" type="BiDi"/>
+        <pin num="J3" name="CLK3_BIDIR_N" type="BiDi"/>
+        <pin num="J4" name="GND" type="power_in"/>
+        <pin num="J5" name="GND" type="power_in"/>
+        <pin num="J6" name="HA03_P" type="BiDi"/>
+        <pin num="J7" name="HA03_N" type="BiDi"/>
+        <pin num="J8" name="GND" type="power_in"/>
+        <pin num="J9" name="HA07_P" type="BiDi"/>
+        <pin num="J10" name="HA07_N" type="BiDi"/>
+        <pin num="J11" name="GND" type="power_in"/>
+        <pin num="J12" name="HA11_P" type="BiDi"/>
+        <pin num="J13" name="HA11_N" type="BiDi"/>
+        <pin num="J14" name="GND" type="power_in"/>
+        <pin num="J15" name="HA14_P" type="BiDi"/>
+        <pin num="J16" name="HA14_N" type="BiDi"/>
+        <pin num="J17" name="GND" type="power_in"/>
+        <pin num="J18" name="HA18_P" type="BiDi"/>
+        <pin num="J19" name="HA18_N" type="BiDi"/>
+        <pin num="J20" name="GND" type="power_in"/>
+        <pin num="J21" name="HA22_P" type="BiDi"/>
+        <pin num="J22" name="HA22_N" type="BiDi"/>
+        <pin num="J23" name="GND" type="power_in"/>
+        <pin num="J24" name="HB01_P" type="BiDi"/>
+        <pin num="J25" name="HB01_N" type="BiDi"/>
+        <pin num="J26" name="GND" type="power_in"/>
+        <pin num="J27" name="HB07_P" type="BiDi"/>
+        <pin num="J28" name="HB07_N" type="BiDi"/>
+        <pin num="J29" name="GND" type="power_in"/>
+        <pin num="J30" name="HB11_P" type="BiDi"/>
+        <pin num="J31" name="HB11_N" type="BiDi"/>
+        <pin num="J32" name="GND" type="power_in"/>
+        <pin num="J33" name="HB15_P" type="BiDi"/>
+        <pin num="J34" name="HB15_N" type="BiDi"/>
+        <pin num="J35" name="GND" type="power_in"/>
+        <pin num="J36" name="HB18_P" type="BiDi"/>
+        <pin num="J37" name="HB18_N" type="BiDi"/>
+        <pin num="J38" name="GND" type="power_in"/>
+        <pin num="J39" name="VIO_B_M2C" type="power_in"/>
+        <pin num="J40" name="GND" type="power_in"/>
+        <pin num="K1" name="VREF_B_M2C" type="power_in"/>
+        <pin num="K2" name="GND" type="power_in"/>
+        <pin num="K3" name="GND" type="power_in"/>
+        <pin num="K4" name="CLK2_BIDIR_P" type="BiDi"/>
+        <pin num="K5" name="CLK2_BIDIR_N" type="BiDi"/>
+        <pin num="K6" name="GND" type="power_in"/>
+        <pin num="K7" name="HA02_P" type="BiDi"/>
+        <pin num="K8" name="HA02_N" type="BiDi"/>
+        <pin num="K9" name="GND" type="power_in"/>
+        <pin num="K10" name="HA06_P" type="BiDi"/>
+        <pin num="K11" name="HA06_N" type="BiDi"/>
+        <pin num="K12" name="GND" type="power_in"/>
+        <pin num="K13" name="HA10_P" type="BiDi"/>
+        <pin num="K14" name="HA10_N" type="BiDi"/>
+        <pin num="K15" name="GND" type="power_in"/>
+        <pin num="K16" name="HA17_P_CC" type="BiDi"/>
+        <pin num="K17" name="HA17_N_CC" type="BiDi"/>
+        <pin num="K18" name="GND" type="power_in"/>
+        <pin num="K19" name="HA21_P" type="BiDi"/>
+        <pin num="K20" name="HA21_N" type="BiDi"/>
+        <pin num="K21" name="GND" type="power_in"/>
+        <pin num="K22" name="HA23_P" type="BiDi"/>
+        <pin num="K23" name="HA23_N" type="BiDi"/>
+        <pin num="K24" name="GND" type="power_in"/>
+        <pin num="K25" name="HB00_P_CC" type="BiDi"/>
+        <pin num="K26" name="HB00_N_CC" type="BiDi"/>
+        <pin num="K27" name="GND" type="power_in"/>
+        <pin num="K28" name="HB06_P_CC" type="BiDi"/>
+        <pin num="K29" name="HB06_N_CC" type="BiDi"/>
+        <pin num="K30" name="GND" type="power_in"/>
+        <pin num="K31" name="HB10_P" type="BiDi"/>
+        <pin num="K32" name="HB10_N" type="BiDi"/>
+        <pin num="K33" name="GND" type="power_in"/>
+        <pin num="K34" name="HB14_P" type="BiDi"/>
+        <pin num="K35" name="HB14_N" type="BiDi"/>
+        <pin num="K36" name="GND" type="power_in"/>
+        <pin num="K37" name="HB17_P_CC" type="BiDi"/>
+        <pin num="K38" name="HB17_N_CC" type="BiDi"/>
+        <pin num="K39" name="GND" type="power_in"/>
+        <pin num="K40" name="VIO_B_M2C" type="power_in"/>
+        <pin num="L1" name="RES1" type="passive"/>
+        <pin num="L2" name="GND" type="power_in"/>
+        <pin num="L3" name="GND" type="power_in"/>
+        <pin num="L4" name="GBTCLK4_M2C_P" type="input"/>
+        <pin num="L5" name="GBTCLK4_M2C_N" type="input"/>
+        <pin num="L6" name="GND" type="power_in"/>
+        <pin num="L7" name="GND" type="power_in"/>
+        <pin num="L8" name="GBTCLK3_M2C_P" type="input"/>
+        <pin num="L9" name="GBTCLK3_M2C_N" type="input"/>
+        <pin num="L10" name="GND" type="power_in"/>
+        <pin num="L11" name="GND" type="power_in"/>
+        <pin num="L12" name="GBTCLK2_M2C_P" type="input"/>
+        <pin num="L13" name="GBTCLK2_M2C_N" type="input"/>
+        <pin num="L14" name="GND" type="power_in"/>
+        <pin num="L15" name="GND" type="power_in"/>
+        <pin num="L16" name="SYNC_C2M_P" type="output"/>
+        <pin num="L17" name="SYNC_C2M_N" type="output"/>
+        <pin num="L18" name="GND" type="power_in"/>
+        <pin num="L19" name="GND" type="power_in"/>
+        <pin num="L20" name="REFCLK_C2M_P" type="output"/>
+        <pin num="L21" name="REFCLK_C2M_N" type="output"/>
+        <pin num="L22" name="GND" type="power_in"/>
+        <pin num="L23" name="GND" type="power_in"/>
+        <pin num="L24" name="REFCLK_M2C_P" type="input"/>
+        <pin num="L25" name="REFCLK_M2C_N" type="input"/>
+        <pin num="L26" name="GND" type="power_in"/>
+        <pin num="L27" name="GND" type="power_in"/>
+        <pin num="L28" name="SYNC_M2C_P" type="input"/>
+        <pin num="L29" name="SYNC_M2C_N" type="input"/>
+        <pin num="L30" name="GND" type="power_in"/>
+        <pin num="L31" name="GND" type="power_in"/>
+        <pin num="L32" name="RES2" type="passive"/>
+        <pin num="L33" name="RES3" type="passive"/>
+        <pin num="L34" name="GND" type="power_in"/>
+        <pin num="L35" name="GND" type="power_in"/>
+        <pin num="L36" name="12P0V" type="power_in"/>
+        <pin num="L37" name="12P0V" type="power_in"/>
+        <pin num="L38" name="GND" type="power_in"/>
+        <pin num="L39" name="GND" type="power_in"/>
+        <pin num="L40" name="12P0V" type="power_in"/>
+        <pin num="M1" name="GND" type="power_in"/>
+        <pin num="M2" name="DP23_M2C_P" type="input"/>
+        <pin num="M3" name="DP23_M2C_N" type="input"/>
+        <pin num="M4" name="GND" type="power_in"/>
+        <pin num="M5" name="GND" type="power_in"/>
+        <pin num="M6" name="DP22_M2C_P" type="input"/>
+        <pin num="M7" name="DP22_M2C_N" type="input"/>
+        <pin num="M8" name="GND" type="power_in"/>
+        <pin num="M9" name="GND" type="power_in"/>
+        <pin num="M10" name="DP21_M2C_P" type="input"/>
+        <pin num="M11" name="DP21_M2C_N" type="input"/>
+        <pin num="M12" name="GND" type="power_in"/>
+        <pin num="M13" name="GND" type="power_in"/>
+        <pin num="M14" name="DP20_M2C_P" type="input"/>
+        <pin num="M15" name="DP20_M2C_N" type="input"/>
+        <pin num="M16" name="GND" type="power_in"/>
+        <pin num="M17" name="GND" type="power_in"/>
+        <pin num="M18" name="DP14_C2M_P" type="output"/>
+        <pin num="M19" name="DP14_C2M_N" type="output"/>
+        <pin num="M20" name="GND" type="power_in"/>
+        <pin num="M21" name="GND" type="power_in"/>
+        <pin num="M22" name="DP15_C2M_P" type="output"/>
+        <pin num="M23" name="DP15_C2M_N" type="output"/>
+        <pin num="M24" name="GND" type="power_in"/>
+        <pin num="M25" name="GND" type="power_in"/>
+        <pin num="M26" name="DP16_C2M_P" type="output"/>
+        <pin num="M27" name="DP16_C2M_N" type="output"/>
+        <pin num="M28" name="GND" type="power_in"/>
+        <pin num="M29" name="GND" type="power_in"/>
+        <pin num="M30" name="DP17_C2M_P" type="output"/>
+        <pin num="M31" name="DP17_C2M_N" type="output"/>
+        <pin num="M32" name="GND" type="power_in"/>
+        <pin num="M33" name="GND" type="power_in"/>
+        <pin num="M34" name="DP18_C2M_P" type="output"/>
+        <pin num="M35" name="DP18_C2M_N" type="output"/>
+        <pin num="M36" name="GND" type="power_in"/>
+        <pin num="M37" name="GND" type="power_in"/>
+        <pin num="M38" name="DP19_C2M_P" type="output"/>
+        <pin num="M39" name="DP19_C2M_N" type="output"/>
+        <pin num="M40" name="GND" type="power_in"/>
+        <pin num="Y1" name="GND" type="power_in"/>
+        <pin num="Y2" name="DP23_C2M_P" type="output"/>
+        <pin num="Y3" name="DP23_C2M_N" type="output"/>
+        <pin num="Y4" name="GND" type="power_in"/>
+        <pin num="Y5" name="GND" type="power_in"/>
+        <pin num="Y6" name="DP21_C2M_P" type="output"/>
+        <pin num="Y7" name="DP21_C2M_N" type="output"/>
+        <pin num="Y8" name="GND" type="power_in"/>
+        <pin num="Y9" name="GND" type="power_in"/>
+        <pin num="Y10" name="DP10_M2C_P" type="input"/>
+        <pin num="Y11" name="DP10_M2C_N" type="input"/>
+        <pin num="Y12" name="GND" type="power_in"/>
+        <pin num="Y13" name="GND" type="power_in"/>
+        <pin num="Y14" name="DP12_M2C_P" type="input"/>
+        <pin num="Y15" name="DP12_M2C_N" type="input"/>
+        <pin num="Y16" name="GND" type="power_in"/>
+        <pin num="Y17" name="GND" type="power_in"/>
+        <pin num="Y18" name="DP14_M2C_P" type="input"/>
+        <pin num="Y19" name="DP14_M2C_N" type="input"/>
+        <pin num="Y20" name="GND" type="power_in"/>
+        <pin num="Y21" name="GND" type="power_in"/>
+        <pin num="Y22" name="DP15_M2C_P" type="input"/>
+        <pin num="Y23" name="DP15_M2C_N" type="input"/>
+        <pin num="Y24" name="GND" type="power_in"/>
+        <pin num="Y25" name="GND" type="power_in"/>
+        <pin num="Y26" name="DP11_C2M_P" type="output"/>
+        <pin num="Y27" name="DP11_C2M_N" type="output"/>
+        <pin num="Y28" name="GND" type="power_in"/>
+        <pin num="Y29" name="GND" type="power_in"/>
+        <pin num="Y30" name="DP13_C2M_P" type="output"/>
+        <pin num="Y31" name="DP13_C2M_N" type="output"/>
+        <pin num="Y32" name="GND" type="power_in"/>
+        <pin num="Y33" name="GND" type="power_in"/>
+        <pin num="Y34" name="DP17_M2C_P" type="input"/>
+        <pin num="Y35" name="DP17_M2C_N" type="input"/>
+        <pin num="Y36" name="GND" type="power_in"/>
+        <pin num="Y37" name="GND" type="power_in"/>
+        <pin num="Y38" name="DP19_M2C_P" type="input"/>
+        <pin num="Y39" name="DP19_M2C_N" type="input"/>
+        <pin num="Y40" name="GND" type="power_in"/>
+        <pin num="Z1" name="HSPC_PRSNT_M2C_L" type="input"/>
+        <pin num="Z2" name="GND" type="power_in"/>
+        <pin num="Z3" name="GND" type="power_in"/>
+        <pin num="Z4" name="DP22_C2M_P" type="output"/>
+        <pin num="Z5" name="DP22_C2M_N" type="output"/>
+        <pin num="Z6" name="GND" type="power_in"/>
+        <pin num="Z7" name="GND" type="power_in"/>
+        <pin num="Z8" name="DP20_C2M_P" type="output"/>
+        <pin num="Z9" name="DP20_C2M_N" type="output"/>
+        <pin num="Z10" name="GND" type="power_in"/>
+        <pin num="Z11" name="GND" type="power_in"/>
+        <pin num="Z12" name="DP11_M2C_P" type="input"/>
+        <pin num="Z13" name="DP11_M2C_N" type="input"/>
+        <pin num="Z14" name="GND" type="power_in"/>
+        <pin num="Z15" name="GND" type="power_in"/>
+        <pin num="Z16" name="DP13_M2C_P" type="input"/>
+        <pin num="Z17" name="DP13_M2C_N" type="input"/>
+        <pin num="Z18" name="GND" type="power_in"/>
+        <pin num="Z19" name="GND" type="power_in"/>
+        <pin num="Z20" name="GBTCLK5_M2C_P" type="input"/>
+        <pin num="Z21" name="GBTCLK5_M2C_N" type="input"/>
+        <pin num="Z22" name="GND" type="power_in"/>
+        <pin num="Z23" name="GND" type="power_in"/>
+        <pin num="Z24" name="DP10_C2M_P" type="output"/>
+        <pin num="Z25" name="DP10_C2M_N" type="output"/>
+        <pin num="Z26" name="GND" type="power_in"/>
+        <pin num="Z27" name="GND" type="power_in"/>
+        <pin num="Z28" name="DP12_C2M_P" type="output"/>
+        <pin num="Z29" name="DP12_C2M_N" type="output"/>
+        <pin num="Z30" name="GND" type="power_in"/>
+        <pin num="Z31" name="GND" type="power_in"/>
+        <pin num="Z32" name="DP16_M2C_P" type="input"/>
+        <pin num="Z33" name="DP16_M2C_N" type="input"/>
+        <pin num="Z34" name="GND" type="power_in"/>
+        <pin num="Z35" name="GND" type="power_in"/>
+        <pin num="Z36" name="DP18_M2C_P" type="input"/>
+        <pin num="Z37" name="DP18_M2C_N" type="input"/>
+        <pin num="Z38" name="GND" type="power_in"/>
+        <pin num="Z39" name="GND" type="power_in"/>
+        <pin num="Z40" name="3P3V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KIT_Graphic" part="KIT_LOGO">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">KIT_LOGO</field>
+        <field name="Footprint">KIT_Graphic:KIT_LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="KIT_Graphic" part="LA_LOGO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">LA_LOGO</field>
+        <field name="Footprint">KIT_Graphic:LA_LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="M24C02-WDW">
+      <aliases>
+        <alias>M24C01-WDW</alias>
+        <alias>M24C01-RDW</alias>
+        <alias>M24C01-FDW</alias>
+        <alias>M24C02-RDW</alias>
+        <alias>M24C02-FDW</alias>
+      </aliases>
+      <description>2Kb (256x8) I2C Serial EEPROM, 2.5-5.5V, TSSOP-8</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">M24C02-WDW</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E0" type="input"/>
+        <pin num="2" name="E1" type="input"/>
+        <pin num="3" name="E2" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="~WC" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="KIT_Connector">
+      <uri>/home/lardilap/Projects/PCB/kit-kicad-library/symbols/KIT_Connector.lib</uri>
+    </library>
+    <library logical="KIT_Graphic">
+      <uri>/home/lardilap/Projects/PCB/kit-kicad-library/symbols/KIT_Graphic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J103-PadH16)">
+      <node ref="J103" pin="H16"/>
+    </net>
+    <net code="2" name="Net-(J103-PadH38)">
+      <node ref="J103" pin="H38"/>
+    </net>
+    <net code="3" name="Net-(J103-PadH37)">
+      <node ref="J103" pin="H37"/>
+    </net>
+    <net code="4" name="Net-(J103-PadH35)">
+      <node ref="J103" pin="H35"/>
+    </net>
+    <net code="5" name="Net-(J103-PadH34)">
+      <node ref="J103" pin="H34"/>
+    </net>
+    <net code="6" name="Net-(J103-PadH32)">
+      <node ref="J103" pin="H32"/>
+    </net>
+    <net code="7" name="Net-(J103-PadH31)">
+      <node ref="J103" pin="H31"/>
+    </net>
+    <net code="8" name="Net-(J103-PadH29)">
+      <node ref="J103" pin="H29"/>
+    </net>
+    <net code="9" name="Net-(J103-PadH28)">
+      <node ref="J103" pin="H28"/>
+    </net>
+    <net code="10" name="Net-(J103-PadH26)">
+      <node ref="J103" pin="H26"/>
+    </net>
+    <net code="11" name="Net-(J103-PadH25)">
+      <node ref="J103" pin="H25"/>
+    </net>
+    <net code="12" name="Net-(J103-PadH23)">
+      <node ref="J103" pin="H23"/>
+    </net>
+    <net code="13" name="Net-(J103-PadH22)">
+      <node ref="J103" pin="H22"/>
+    </net>
+    <net code="14" name="Net-(J103-PadH20)">
+      <node ref="J103" pin="H20"/>
+    </net>
+    <net code="15" name="Net-(J103-PadH19)">
+      <node ref="J103" pin="H19"/>
+    </net>
+    <net code="16" name="Net-(J103-PadH17)">
+      <node ref="J103" pin="H17"/>
+    </net>
+    <net code="17" name="Net-(J103-PadG12)">
+      <node ref="J103" pin="G12"/>
+    </net>
+    <net code="18" name="Net-(J103-PadH14)">
+      <node ref="J103" pin="H14"/>
+    </net>
+    <net code="19" name="Net-(J103-PadH13)">
+      <node ref="J103" pin="H13"/>
+    </net>
+    <net code="20" name="Net-(J103-PadH11)">
+      <node ref="J103" pin="H11"/>
+    </net>
+    <net code="21" name="Net-(J103-PadH10)">
+      <node ref="J103" pin="H10"/>
+    </net>
+    <net code="22" name="Net-(J103-PadJ22)">
+      <node ref="J103" pin="J22"/>
+    </net>
+    <net code="23" name="Net-(J103-PadJ21)">
+      <node ref="J103" pin="J21"/>
+    </net>
+    <net code="24" name="Net-(J103-PadJ19)">
+      <node ref="J103" pin="J19"/>
+    </net>
+    <net code="25" name="Net-(J103-PadJ18)">
+      <node ref="J103" pin="J18"/>
+    </net>
+    <net code="26" name="Net-(J103-PadJ16)">
+      <node ref="J103" pin="J16"/>
+    </net>
+    <net code="27" name="Net-(J103-PadJ15)">
+      <node ref="J103" pin="J15"/>
+    </net>
+    <net code="28" name="Net-(J103-PadJ13)">
+      <node ref="J103" pin="J13"/>
+    </net>
+    <net code="29" name="Net-(J103-PadJ12)">
+      <node ref="J103" pin="J12"/>
+    </net>
+    <net code="30" name="Net-(J103-PadJ10)">
+      <node ref="J103" pin="J10"/>
+    </net>
+    <net code="31" name="Net-(J103-PadJ9)">
+      <node ref="J103" pin="J9"/>
+    </net>
+    <net code="32" name="Net-(J103-PadG34)">
+      <node ref="J103" pin="G34"/>
+    </net>
+    <net code="33" name="Net-(J103-PadF20)">
+      <node ref="J103" pin="F20"/>
+    </net>
+    <net code="34" name="Net-(J103-PadF19)">
+      <node ref="J103" pin="F19"/>
+    </net>
+    <net code="35" name="Net-(J103-PadF17)">
+      <node ref="J103" pin="F17"/>
+    </net>
+    <net code="36" name="Net-(J103-PadF16)">
+      <node ref="J103" pin="F16"/>
+    </net>
+    <net code="37" name="Net-(J103-PadF14)">
+      <node ref="J103" pin="F14"/>
+    </net>
+    <net code="38" name="Net-(J103-PadF13)">
+      <node ref="J103" pin="F13"/>
+    </net>
+    <net code="39" name="Net-(J103-PadF11)">
+      <node ref="J103" pin="F11"/>
+    </net>
+    <net code="40" name="Net-(J103-PadF10)">
+      <node ref="J103" pin="F10"/>
+    </net>
+    <net code="41" name="Net-(J103-PadF8)">
+      <node ref="J103" pin="F8"/>
+    </net>
+    <net code="42" name="Net-(J103-PadF7)">
+      <node ref="J103" pin="F7"/>
+    </net>
+    <net code="43" name="Net-(J103-PadF5)">
+      <node ref="J103" pin="F5"/>
+    </net>
+    <net code="44" name="Net-(J103-PadF4)">
+      <node ref="J103" pin="F4"/>
+    </net>
+    <net code="45" name="Net-(J103-PadG37)">
+      <node ref="J103" pin="G37"/>
+    </net>
+    <net code="46" name="Net-(J103-PadG36)">
+      <node ref="J103" pin="G36"/>
+    </net>
+    <net code="47" name="Net-(J103-PadJ7)">
+      <node ref="J103" pin="J7"/>
+    </net>
+    <net code="48" name="Net-(J103-PadG33)">
+      <node ref="J103" pin="G33"/>
+    </net>
+    <net code="49" name="Net-(J103-PadG31)">
+      <node ref="J103" pin="G31"/>
+    </net>
+    <net code="50" name="Net-(J103-PadG30)">
+      <node ref="J103" pin="G30"/>
+    </net>
+    <net code="51" name="Net-(J103-PadG28)">
+      <node ref="J103" pin="G28"/>
+    </net>
+    <net code="52" name="Net-(J103-PadG27)">
+      <node ref="J103" pin="G27"/>
+    </net>
+    <net code="53" name="Net-(J103-PadG25)">
+      <node ref="J103" pin="G25"/>
+    </net>
+    <net code="54" name="Net-(J103-PadG24)">
+      <node ref="J103" pin="G24"/>
+    </net>
+    <net code="55" name="Net-(J103-PadG22)">
+      <node ref="J103" pin="G22"/>
+    </net>
+    <net code="56" name="Net-(J103-PadG21)">
+      <node ref="J103" pin="G21"/>
+    </net>
+    <net code="57" name="Net-(J103-PadG19)">
+      <node ref="J103" pin="G19"/>
+    </net>
+    <net code="58" name="Net-(J103-PadG18)">
+      <node ref="J103" pin="G18"/>
+    </net>
+    <net code="59" name="Net-(J103-PadG16)">
+      <node ref="J103" pin="G16"/>
+    </net>
+    <net code="60" name="Net-(J103-PadG15)">
+      <node ref="J103" pin="G15"/>
+    </net>
+    <net code="61" name="Net-(J103-PadG13)">
+      <node ref="J103" pin="G13"/>
+    </net>
+    <net code="62" name="Net-(J103-PadE37)">
+      <node ref="J103" pin="E37"/>
+    </net>
+    <net code="63" name="Net-(J103-PadL1)">
+      <node ref="J103" pin="L1"/>
+    </net>
+    <net code="64" name="Net-(J103-PadB1)">
+      <node ref="J103" pin="B1"/>
+    </net>
+    <net code="65" name="Net-(J103-PadJ3)">
+      <node ref="J103" pin="J3"/>
+    </net>
+    <net code="66" name="Net-(J103-PadJ2)">
+      <node ref="J103" pin="J2"/>
+    </net>
+    <net code="67" name="Net-(J103-PadK5)">
+      <node ref="J103" pin="K5"/>
+    </net>
+    <net code="68" name="Net-(J103-PadK4)">
+      <node ref="J103" pin="K4"/>
+    </net>
+    <net code="69" name="Net-(J103-PadK1)">
+      <node ref="J103" pin="K1"/>
+    </net>
+    <net code="70" name="Net-(J103-PadE36)">
+      <node ref="J103" pin="E36"/>
+    </net>
+    <net code="71" name="Net-(J103-PadE34)">
+      <node ref="J103" pin="E34"/>
+    </net>
+    <net code="72" name="Net-(J103-PadE33)">
+      <node ref="J103" pin="E33"/>
+    </net>
+    <net code="73" name="Net-(J103-PadE31)">
+      <node ref="J103" pin="E31"/>
+    </net>
+    <net code="74" name="Net-(J103-PadE30)">
+      <node ref="J103" pin="E30"/>
+    </net>
+    <net code="75" name="Net-(J103-PadE28)">
+      <node ref="J103" pin="E28"/>
+    </net>
+    <net code="76" name="Net-(J103-PadE27)">
+      <node ref="J103" pin="E27"/>
+    </net>
+    <net code="77" name="Net-(J103-PadE25)">
+      <node ref="J103" pin="E25"/>
+    </net>
+    <net code="78" name="Net-(J103-PadE24)">
+      <node ref="J103" pin="E24"/>
+    </net>
+    <net code="79" name="Net-(J103-PadE22)">
+      <node ref="J103" pin="E22"/>
+    </net>
+    <net code="80" name="Net-(J103-PadE21)">
+      <node ref="J103" pin="E21"/>
+    </net>
+    <net code="81" name="Net-(J103-PadF38)">
+      <node ref="J103" pin="F38"/>
+    </net>
+    <net code="82" name="Net-(J103-PadF37)">
+      <node ref="J103" pin="F37"/>
+    </net>
+    <net code="83" name="Net-(J103-PadF35)">
+      <node ref="J103" pin="F35"/>
+    </net>
+    <net code="84" name="Net-(J103-PadG2)">
+      <node ref="J103" pin="G2"/>
+    </net>
+    <net code="85" name="Net-(J103-PadJ6)">
+      <node ref="J103" pin="J6"/>
+    </net>
+    <net code="86" name="Net-(J103-PadK23)">
+      <node ref="J103" pin="K23"/>
+    </net>
+    <net code="87" name="Net-(J103-PadK22)">
+      <node ref="J103" pin="K22"/>
+    </net>
+    <net code="88" name="Net-(J103-PadK20)">
+      <node ref="J103" pin="K20"/>
+    </net>
+    <net code="89" name="Net-(J103-PadK19)">
+      <node ref="J103" pin="K19"/>
+    </net>
+    <net code="90" name="Net-(J103-PadK17)">
+      <node ref="J103" pin="K17"/>
+    </net>
+    <net code="91" name="Net-(J103-PadK16)">
+      <node ref="J103" pin="K16"/>
+    </net>
+    <net code="92" name="Net-(J103-PadK14)">
+      <node ref="J103" pin="K14"/>
+    </net>
+    <net code="93" name="Net-(J103-PadK13)">
+      <node ref="J103" pin="K13"/>
+    </net>
+    <net code="94" name="Net-(J103-PadK8)">
+      <node ref="J103" pin="K8"/>
+    </net>
+    <net code="95" name="Net-(J103-PadK7)">
+      <node ref="J103" pin="K7"/>
+    </net>
+    <net code="96" name="Net-(J103-PadG3)">
+      <node ref="J103" pin="G3"/>
+    </net>
+    <net code="97" name="Net-(J103-PadE2)">
+      <node ref="J103" pin="E2"/>
+    </net>
+    <net code="98" name="Net-(J103-PadH1)">
+      <node ref="J103" pin="H1"/>
+    </net>
+    <net code="99" name="Net-(J103-PadH5)">
+      <node ref="J103" pin="H5"/>
+    </net>
+    <net code="100" name="Net-(J103-PadH4)">
+      <node ref="J103" pin="H4"/>
+    </net>
+    <net code="101" name="Net-(J103-PadZ21)">
+      <node ref="J103" pin="Z21"/>
+    </net>
+    <net code="102" name="Net-(J103-PadZ20)">
+      <node ref="J103" pin="Z20"/>
+    </net>
+    <net code="103" name="Net-(J103-PadD1)">
+      <node ref="J103" pin="D1"/>
+    </net>
+    <net code="104" name="Net-(J103-PadD34)">
+      <node ref="J103" pin="D34"/>
+    </net>
+    <net code="105" name="Net-(J103-PadD33)">
+      <node ref="J103" pin="D33"/>
+    </net>
+    <net code="106" name="Net-(J103-PadD29)">
+      <node ref="J103" pin="D29"/>
+    </net>
+    <net code="107" name="Net-(J103-PadD30)">
+      <node ref="J103" pin="D31"/>
+      <node ref="J103" pin="D30"/>
+    </net>
+    <net code="108" name="Net-(J103-PadY22)">
+      <node ref="J103" pin="Y22"/>
+    </net>
+    <net code="109" name="Net-(J103-PadZ13)">
+      <node ref="J103" pin="Z13"/>
+    </net>
+    <net code="110" name="Net-(J103-PadZ12)">
+      <node ref="J103" pin="Z12"/>
+    </net>
+    <net code="111" name="Net-(J103-PadZ9)">
+      <node ref="J103" pin="Z9"/>
+    </net>
+    <net code="112" name="Net-(J103-PadZ8)">
+      <node ref="J103" pin="Z8"/>
+    </net>
+    <net code="113" name="Net-(J103-PadZ5)">
+      <node ref="J103" pin="Z5"/>
+    </net>
+    <net code="114" name="Net-(J103-PadZ4)">
+      <node ref="J103" pin="Z4"/>
+    </net>
+    <net code="115" name="Net-(J103-PadY39)">
+      <node ref="J103" pin="Y39"/>
+    </net>
+    <net code="116" name="Net-(J103-PadY38)">
+      <node ref="J103" pin="Y38"/>
+    </net>
+    <net code="117" name="Net-(J103-PadY34)">
+      <node ref="J103" pin="Y34"/>
+    </net>
+    <net code="118" name="Net-(J103-PadY31)">
+      <node ref="J103" pin="Y31"/>
+    </net>
+    <net code="119" name="Net-(J103-PadY35)">
+      <node ref="J103" pin="Y35"/>
+    </net>
+    <net code="120" name="Net-(J103-PadY30)">
+      <node ref="J103" pin="Y30"/>
+    </net>
+    <net code="121" name="Net-(J103-PadY27)">
+      <node ref="J103" pin="Y27"/>
+    </net>
+    <net code="122" name="Net-(J103-PadY26)">
+      <node ref="J103" pin="Y26"/>
+    </net>
+    <net code="123" name="Net-(J103-PadY23)">
+      <node ref="J103" pin="Y23"/>
+    </net>
+    <net code="124" name="Net-(J103-PadZ16)">
+      <node ref="J103" pin="Z16"/>
+    </net>
+    <net code="125" name="Net-(J103-PadY19)">
+      <node ref="J103" pin="Y19"/>
+    </net>
+    <net code="126" name="Net-(J103-PadY18)">
+      <node ref="J103" pin="Y18"/>
+    </net>
+    <net code="127" name="Net-(J103-PadY15)">
+      <node ref="J103" pin="Y15"/>
+    </net>
+    <net code="128" name="Net-(J103-PadY14)">
+      <node ref="J103" pin="Y14"/>
+    </net>
+    <net code="129" name="Net-(J103-PadY11)">
+      <node ref="J103" pin="Y11"/>
+    </net>
+    <net code="130" name="Net-(J103-PadY10)">
+      <node ref="J103" pin="Y10"/>
+    </net>
+    <net code="131" name="Net-(J103-PadY7)">
+      <node ref="J103" pin="Y7"/>
+    </net>
+    <net code="132" name="Net-(J103-PadY6)">
+      <node ref="J103" pin="Y6"/>
+    </net>
+    <net code="133" name="Net-(J103-PadY3)">
+      <node ref="J103" pin="Y3"/>
+    </net>
+    <net code="134" name="Net-(J103-PadY2)">
+      <node ref="J103" pin="Y2"/>
+    </net>
+    <net code="135" name="Net-(J103-PadA11)">
+      <node ref="J103" pin="A11"/>
+    </net>
+    <net code="136" name="Net-(J103-PadA39)">
+      <node ref="J103" pin="A39"/>
+    </net>
+    <net code="137" name="Net-(J103-PadA38)">
+      <node ref="J103" pin="A38"/>
+    </net>
+    <net code="138" name="Net-(J103-PadA35)">
+      <node ref="J103" pin="A35"/>
+    </net>
+    <net code="139" name="Net-(J103-PadA34)">
+      <node ref="J103" pin="A34"/>
+    </net>
+    <net code="140" name="Net-(J103-PadA31)">
+      <node ref="J103" pin="A31"/>
+    </net>
+    <net code="141" name="Net-(J103-PadA30)">
+      <node ref="J103" pin="A30"/>
+    </net>
+    <net code="142" name="Net-(J103-PadA27)">
+      <node ref="J103" pin="A27"/>
+    </net>
+    <net code="143" name="Net-(J103-PadA26)">
+      <node ref="J103" pin="A26"/>
+    </net>
+    <net code="144" name="Net-(J103-PadA23)">
+      <node ref="J103" pin="A23"/>
+    </net>
+    <net code="145" name="Net-(J103-PadA22)">
+      <node ref="J103" pin="A22"/>
+    </net>
+    <net code="146" name="Net-(J103-PadA19)">
+      <node ref="J103" pin="A19"/>
+    </net>
+    <net code="147" name="Net-(J103-PadA18)">
+      <node ref="J103" pin="A18"/>
+    </net>
+    <net code="148" name="Net-(J103-PadA15)">
+      <node ref="J103" pin="A15"/>
+    </net>
+    <net code="149" name="Net-(J103-PadA14)">
+      <node ref="J103" pin="A14"/>
+    </net>
+    <net code="150" name="Net-(J103-PadA10)">
+      <node ref="J103" pin="A10"/>
+    </net>
+    <net code="151" name="Net-(J103-PadA7)">
+      <node ref="J103" pin="A7"/>
+    </net>
+    <net code="152" name="Net-(J103-PadA6)">
+      <node ref="J103" pin="A6"/>
+    </net>
+    <net code="153" name="Net-(J103-PadA3)">
+      <node ref="J103" pin="A3"/>
+    </net>
+    <net code="154" name="Net-(J103-PadA2)">
+      <node ref="J103" pin="A2"/>
+    </net>
+    <net code="155" name="Net-(J103-PadZ37)">
+      <node ref="J103" pin="Z37"/>
+    </net>
+    <net code="156" name="Net-(J103-PadZ36)">
+      <node ref="J103" pin="Z36"/>
+    </net>
+    <net code="157" name="Net-(J103-PadZ33)">
+      <node ref="J103" pin="Z33"/>
+    </net>
+    <net code="158" name="Net-(J103-PadZ32)">
+      <node ref="J103" pin="Z32"/>
+    </net>
+    <net code="159" name="Net-(J103-PadZ29)">
+      <node ref="J103" pin="Z29"/>
+    </net>
+    <net code="160" name="Net-(J103-PadZ28)">
+      <node ref="J103" pin="Z28"/>
+    </net>
+    <net code="161" name="Net-(J103-PadZ25)">
+      <node ref="J103" pin="Z25"/>
+    </net>
+    <net code="162" name="Net-(J103-PadZ24)">
+      <node ref="J103" pin="Z24"/>
+    </net>
+    <net code="163" name="Net-(J103-PadZ17)">
+      <node ref="J103" pin="Z17"/>
+    </net>
+    <net code="164" name="Net-(J103-PadD27)">
+      <node ref="J103" pin="D27"/>
+    </net>
+    <net code="165" name="Net-(J103-PadK11)">
+      <node ref="J103" pin="K11"/>
+    </net>
+    <net code="166" name="Net-(J103-PadK10)">
+      <node ref="J103" pin="K10"/>
+    </net>
+    <net code="167" name="Net-(J103-PadB40)">
+      <node ref="J103" pin="B40"/>
+    </net>
+    <net code="168" name="Net-(J103-PadC27)">
+      <node ref="J103" pin="C27"/>
+    </net>
+    <net code="169" name="Net-(J103-PadC26)">
+      <node ref="J103" pin="C26"/>
+    </net>
+    <net code="170" name="Net-(J103-PadC19)">
+      <node ref="J103" pin="C19"/>
+    </net>
+    <net code="171" name="Net-(J103-PadC18)">
+      <node ref="J103" pin="C18"/>
+    </net>
+    <net code="172" name="Net-(J103-PadC15)">
+      <node ref="J103" pin="C15"/>
+    </net>
+    <net code="173" name="Net-(J103-PadC14)">
+      <node ref="J103" pin="C14"/>
+    </net>
+    <net code="174" name="Net-(J103-PadC11)">
+      <node ref="J103" pin="C11"/>
+    </net>
+    <net code="175" name="Net-(J103-PadC10)">
+      <node ref="J103" pin="C10"/>
+    </net>
+    <net code="176" name="Net-(J103-PadD26)">
+      <node ref="J103" pin="D26"/>
+    </net>
+    <net code="177" name="Net-(J103-PadD24)">
+      <node ref="J103" pin="D24"/>
+    </net>
+    <net code="178" name="Net-(J103-PadD23)">
+      <node ref="J103" pin="D23"/>
+    </net>
+    <net code="179" name="Net-(J103-PadE19)">
+      <node ref="J103" pin="E19"/>
+    </net>
+    <net code="180" name="Net-(J103-PadE18)">
+      <node ref="J103" pin="E18"/>
+    </net>
+    <net code="181" name="Net-(J103-PadE16)">
+      <node ref="J103" pin="E16"/>
+    </net>
+    <net code="182" name="Net-(J103-PadE15)">
+      <node ref="J103" pin="E15"/>
+    </net>
+    <net code="183" name="Net-(J103-PadE13)">
+      <node ref="J103" pin="E13"/>
+    </net>
+    <net code="184" name="Net-(J103-PadE12)">
+      <node ref="J103" pin="E12"/>
+    </net>
+    <net code="185" name="Net-(J103-PadE10)">
+      <node ref="J103" pin="E10"/>
+    </net>
+    <net code="186" name="Net-(J103-PadE9)">
+      <node ref="J103" pin="E9"/>
+    </net>
+    <net code="187" name="Net-(J103-PadE7)">
+      <node ref="J103" pin="E7"/>
+    </net>
+    <net code="188" name="Net-(J103-PadE6)">
+      <node ref="J103" pin="E6"/>
+    </net>
+    <net code="189" name="Net-(J103-PadE3)">
+      <node ref="J103" pin="E3"/>
+    </net>
+    <net code="190" name="/DPCLK_M2C_R_N1">
+      <node ref="J103" pin="B21"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="191" name="/DPCLK_M2C_R_P1">
+      <node ref="R103" pin="2"/>
+      <node ref="J103" pin="B20"/>
+    </net>
+    <net code="192" name="Net-(J103-PadD18)">
+      <node ref="J103" pin="D18"/>
+    </net>
+    <net code="193" name="Net-(J103-PadF34)">
+      <node ref="J103" pin="F34"/>
+    </net>
+    <net code="194" name="GND">
+      <node ref="J103" pin="F9"/>
+      <node ref="J103" pin="E23"/>
+      <node ref="J103" pin="D22"/>
+      <node ref="J103" pin="F18"/>
+      <node ref="J103" pin="D25"/>
+      <node ref="J103" pin="F2"/>
+      <node ref="J103" pin="F21"/>
+      <node ref="J103" pin="F24"/>
+      <node ref="J103" pin="F27"/>
+      <node ref="J103" pin="E26"/>
+      <node ref="J103" pin="E29"/>
+      <node ref="J103" pin="F3"/>
+      <node ref="J103" pin="F30"/>
+      <node ref="J103" pin="F33"/>
+      <node ref="J103" pin="F12"/>
+      <node ref="J103" pin="F36"/>
+      <node ref="J103" pin="F15"/>
+      <node ref="J103" pin="E20"/>
+      <node ref="J103" pin="C40"/>
+      <node ref="J103" pin="Z39"/>
+      <node ref="J103" pin="D6"/>
+      <node ref="J103" pin="D7"/>
+      <node ref="J103" pin="E1"/>
+      <node ref="J103" pin="E11"/>
+      <node ref="J103" pin="E14"/>
+      <node ref="J103" pin="E17"/>
+      <node ref="J103" pin="C38"/>
+      <node ref="J103" pin="C4"/>
+      <node ref="J103" pin="D39"/>
+      <node ref="J103" pin="C5"/>
+      <node ref="J103" pin="C8"/>
+      <node ref="J103" pin="C9"/>
+      <node ref="J103" pin="D10"/>
+      <node ref="J103" pin="D13"/>
+      <node ref="J103" pin="D28"/>
+      <node ref="J103" pin="D16"/>
+      <node ref="J103" pin="D19"/>
+      <node ref="J103" pin="D2"/>
+      <node ref="J103" pin="D3"/>
+      <node ref="J103" pin="D37"/>
+      <node ref="J103" pin="Z22"/>
+      <node ref="J103" pin="K24"/>
+      <node ref="J103" pin="K27"/>
+      <node ref="J103" pin="K15"/>
+      <node ref="J103" pin="Z14"/>
+      <node ref="J103" pin="Z15"/>
+      <node ref="J103" pin="Z18"/>
+      <node ref="J103" pin="Z19"/>
+      <node ref="J103" pin="Z2"/>
+      <node ref="J103" pin="K21"/>
+      <node ref="J103" pin="Z23"/>
+      <node ref="J103" pin="Z26"/>
+      <node ref="J103" pin="Z27"/>
+      <node ref="J103" pin="Z3"/>
+      <node ref="J103" pin="Z30"/>
+      <node ref="J103" pin="Z31"/>
+      <node ref="J103" pin="Z34"/>
+      <node ref="J103" pin="Z35"/>
+      <node ref="J103" pin="K6"/>
+      <node ref="J103" pin="K36"/>
+      <node ref="J103" pin="K39"/>
+      <node ref="J103" pin="K9"/>
+      <node ref="J103" pin="Y1"/>
+      <node ref="J103" pin="Y12"/>
+      <node ref="J103" pin="Y13"/>
+      <node ref="J103" pin="Y16"/>
+      <node ref="J103" pin="Y17"/>
+      <node ref="J103" pin="Z38"/>
+      <node ref="J103" pin="J4"/>
+      <node ref="J103" pin="J40"/>
+      <node ref="J103" pin="J5"/>
+      <node ref="J103" pin="J8"/>
+      <node ref="J103" pin="K12"/>
+      <node ref="J103" pin="K18"/>
+      <node ref="J103" pin="K2"/>
+      <node ref="J103" pin="G8"/>
+      <node ref="J103" pin="Y33"/>
+      <node ref="J103" pin="G29"/>
+      <node ref="J103" pin="G32"/>
+      <node ref="J103" pin="G35"/>
+      <node ref="J103" pin="G38"/>
+      <node ref="J103" pin="G4"/>
+      <node ref="J103" pin="G40"/>
+      <node ref="J103" pin="J38"/>
+      <node ref="J103" pin="Z10"/>
+      <node ref="J103" pin="H12"/>
+      <node ref="J103" pin="H15"/>
+      <node ref="J103" pin="H18"/>
+      <node ref="J103" pin="G5"/>
+      <node ref="J103" pin="F39"/>
+      <node ref="J103" pin="F6"/>
+      <node ref="J103" pin="Y36"/>
+      <node ref="J103" pin="Y20"/>
+      <node ref="J103" pin="Y21"/>
+      <node ref="J103" pin="Y24"/>
+      <node ref="J103" pin="Y25"/>
+      <node ref="J103" pin="Y28"/>
+      <node ref="J103" pin="Y29"/>
+      <node ref="J103" pin="Y32"/>
+      <node ref="J103" pin="Z11"/>
+      <node ref="J103" pin="K33"/>
+      <node ref="J103" pin="Y37"/>
+      <node ref="J103" pin="Y4"/>
+      <node ref="J103" pin="Y40"/>
+      <node ref="J103" pin="Y5"/>
+      <node ref="J103" pin="Y8"/>
+      <node ref="J103" pin="Y9"/>
+      <node ref="J103" pin="Z1"/>
+      <node ref="J103" pin="B11"/>
+      <node ref="J103" pin="B14"/>
+      <node ref="J103" pin="B15"/>
+      <node ref="J103" pin="A40"/>
+      <node ref="TP105" pin="1"/>
+      <node ref="J103" pin="B10"/>
+      <node ref="J103" pin="A1"/>
+      <node ref="J103" pin="A12"/>
+      <node ref="J103" pin="A16"/>
+      <node ref="J103" pin="A17"/>
+      <node ref="J103" pin="A20"/>
+      <node ref="J103" pin="A21"/>
+      <node ref="J103" pin="A24"/>
+      <node ref="J103" pin="A32"/>
+      <node ref="J103" pin="E38"/>
+      <node ref="J103" pin="E4"/>
+      <node ref="J103" pin="E40"/>
+      <node ref="J103" pin="E5"/>
+      <node ref="J103" pin="E8"/>
+      <node ref="J103" pin="E32"/>
+      <node ref="J103" pin="A28"/>
+      <node ref="J103" pin="A29"/>
+      <node ref="J103" pin="A25"/>
+      <node ref="J103" pin="A33"/>
+      <node ref="J103" pin="A36"/>
+      <node ref="J103" pin="A37"/>
+      <node ref="J103" pin="A4"/>
+      <node ref="J103" pin="A5"/>
+      <node ref="J103" pin="A8"/>
+      <node ref="J103" pin="A9"/>
+      <node ref="J103" pin="B35"/>
+      <node ref="J103" pin="B22"/>
+      <node ref="J103" pin="B23"/>
+      <node ref="J103" pin="B26"/>
+      <node ref="J103" pin="B27"/>
+      <node ref="J103" pin="B3"/>
+      <node ref="J103" pin="B30"/>
+      <node ref="J103" pin="C1"/>
+      <node ref="J103" pin="B34"/>
+      <node ref="J103" pin="B2"/>
+      <node ref="J103" pin="B38"/>
+      <node ref="J103" pin="B39"/>
+      <node ref="J103" pin="B6"/>
+      <node ref="J103" pin="B7"/>
+      <node ref="J103" pin="B31"/>
+      <node ref="J103" pin="K3"/>
+      <node ref="J103" pin="K30"/>
+      <node ref="J103" pin="C24"/>
+      <node ref="J103" pin="A13"/>
+      <node ref="J103" pin="C12"/>
+      <node ref="J103" pin="C13"/>
+      <node ref="J103" pin="C16"/>
+      <node ref="J103" pin="C17"/>
+      <node ref="J103" pin="C20"/>
+      <node ref="J103" pin="C21"/>
+      <node ref="J103" pin="B18"/>
+      <node ref="J103" pin="E35"/>
+      <node ref="J103" pin="C25"/>
+      <node ref="J103" pin="C28"/>
+      <node ref="J103" pin="C29"/>
+      <node ref="J103" pin="C32"/>
+      <node ref="J103" pin="C33"/>
+      <node ref="J103" pin="C36"/>
+      <node ref="J103" pin="B19"/>
+      <node ref="J103" pin="Z6"/>
+      <node ref="J103" pin="Z7"/>
+      <node ref="TP104" pin="1"/>
+      <node ref="C118" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U101" pin="7"/>
+      <node ref="U101" pin="3"/>
+      <node ref="J106" pin="2"/>
+      <node ref="J109" pin="2"/>
+      <node ref="J108" pin="2"/>
+      <node ref="J103" pin="L2"/>
+      <node ref="J103" pin="L22"/>
+      <node ref="J103" pin="L23"/>
+      <node ref="J103" pin="L26"/>
+      <node ref="J103" pin="L27"/>
+      <node ref="J103" pin="L3"/>
+      <node ref="J103" pin="L30"/>
+      <node ref="J103" pin="L18"/>
+      <node ref="J114" pin="2"/>
+      <node ref="J115" pin="2"/>
+      <node ref="J103" pin="L19"/>
+      <node ref="J112" pin="2"/>
+      <node ref="J122" pin="3"/>
+      <node ref="J113" pin="2"/>
+      <node ref="J117" pin="2"/>
+      <node ref="J103" pin="L38"/>
+      <node ref="J103" pin="L39"/>
+      <node ref="J103" pin="L35"/>
+      <node ref="J103" pin="L34"/>
+      <node ref="J103" pin="L6"/>
+      <node ref="J103" pin="L7"/>
+      <node ref="J103" pin="M1"/>
+      <node ref="J103" pin="M12"/>
+      <node ref="J103" pin="M13"/>
+      <node ref="J103" pin="M16"/>
+      <node ref="J103" pin="M17"/>
+      <node ref="J103" pin="M20"/>
+      <node ref="J103" pin="M21"/>
+      <node ref="C109" pin="2"/>
+      <node ref="J103" pin="L10"/>
+      <node ref="J103" pin="L11"/>
+      <node ref="J103" pin="L14"/>
+      <node ref="J103" pin="L15"/>
+      <node ref="J103" pin="L31"/>
+      <node ref="J103" pin="M36"/>
+      <node ref="J119" pin="2"/>
+      <node ref="J116" pin="2"/>
+      <node ref="J103" pin="M9"/>
+      <node ref="J105" pin="2"/>
+      <node ref="J120" pin="2"/>
+      <node ref="J103" pin="M24"/>
+      <node ref="J121" pin="2"/>
+      <node ref="J103" pin="M25"/>
+      <node ref="J103" pin="M28"/>
+      <node ref="J103" pin="M29"/>
+      <node ref="J103" pin="M32"/>
+      <node ref="J104" pin="2"/>
+      <node ref="J103" pin="M33"/>
+      <node ref="J103" pin="M37"/>
+      <node ref="J103" pin="M4"/>
+      <node ref="J103" pin="M40"/>
+      <node ref="J103" pin="M5"/>
+      <node ref="J103" pin="M8"/>
+      <node ref="J118" pin="2"/>
+      <node ref="J107" pin="2"/>
+      <node ref="J103" pin="J23"/>
+      <node ref="J103" pin="H24"/>
+      <node ref="J103" pin="H21"/>
+      <node ref="J103" pin="H2"/>
+      <node ref="J103" pin="J35"/>
+      <node ref="J103" pin="J32"/>
+      <node ref="J103" pin="J29"/>
+      <node ref="J103" pin="J26"/>
+      <node ref="J103" pin="H27"/>
+      <node ref="J103" pin="J20"/>
+      <node ref="J103" pin="J17"/>
+      <node ref="J103" pin="J14"/>
+      <node ref="J103" pin="J11"/>
+      <node ref="J103" pin="G14"/>
+      <node ref="J103" pin="G26"/>
+      <node ref="J103" pin="G23"/>
+      <node ref="J103" pin="G20"/>
+      <node ref="J103" pin="G17"/>
+      <node ref="J103" pin="G11"/>
+      <node ref="J103" pin="G1"/>
+      <node ref="J103" pin="J1"/>
+      <node ref="J103" pin="H9"/>
+      <node ref="J103" pin="H6"/>
+      <node ref="J103" pin="H39"/>
+      <node ref="J103" pin="H36"/>
+      <node ref="J103" pin="H33"/>
+      <node ref="J103" pin="H30"/>
+      <node ref="J103" pin="H3"/>
+      <node ref="J110" pin="2"/>
+      <node ref="J111" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="195" name="/SDA">
+      <node ref="R110" pin="2"/>
+      <node ref="U101" pin="5"/>
+      <node ref="J103" pin="C31"/>
+      <node ref="J122" pin="2"/>
+    </net>
+    <net code="196" name="/GA0">
+      <node ref="J103" pin="C34"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="197" name="/GA1">
+      <node ref="U101" pin="1"/>
+      <node ref="J103" pin="D35"/>
+    </net>
+    <net code="198" name="+3V3_FMCP">
+      <node ref="R111" pin="1"/>
+      <node ref="C118" pin="1"/>
+      <node ref="J103" pin="Z40"/>
+      <node ref="R110" pin="1"/>
+      <node ref="J103" pin="C39"/>
+      <node ref="C109" pin="1"/>
+      <node ref="R113" pin="1"/>
+      <node ref="U101" pin="8"/>
+      <node ref="TP101" pin="1"/>
+      <node ref="J103" pin="D32"/>
+      <node ref="J103" pin="D36"/>
+      <node ref="J103" pin="D38"/>
+      <node ref="J103" pin="D40"/>
+    </net>
+    <net code="199" name="Net-(J103-PadK40)">
+      <node ref="J103" pin="K40"/>
+    </net>
+    <net code="200" name="/SCL">
+      <node ref="U101" pin="6"/>
+      <node ref="J103" pin="C30"/>
+      <node ref="J122" pin="1"/>
+      <node ref="R111" pin="2"/>
+    </net>
+    <net code="201" name="Net-(J103-PadJ28)">
+      <node ref="J103" pin="J28"/>
+    </net>
+    <net code="202" name="Net-(J103-PadF32)">
+      <node ref="J103" pin="F32"/>
+    </net>
+    <net code="203" name="Net-(J103-PadF31)">
+      <node ref="J103" pin="F31"/>
+    </net>
+    <net code="204" name="Net-(J103-PadF29)">
+      <node ref="J103" pin="F29"/>
+    </net>
+    <net code="205" name="Net-(J103-PadF28)">
+      <node ref="J103" pin="F28"/>
+    </net>
+    <net code="206" name="Net-(J103-PadF26)">
+      <node ref="J103" pin="F26"/>
+    </net>
+    <net code="207" name="Net-(J103-PadF25)">
+      <node ref="J103" pin="F25"/>
+    </net>
+    <net code="208" name="Net-(J103-PadF23)">
+      <node ref="J103" pin="F23"/>
+    </net>
+    <net code="209" name="Net-(J103-PadF22)">
+      <node ref="J103" pin="F22"/>
+    </net>
+    <net code="210" name="Net-(J103-PadJ37)">
+      <node ref="J103" pin="J37"/>
+    </net>
+    <net code="211" name="Net-(J103-PadJ36)">
+      <node ref="J103" pin="J36"/>
+    </net>
+    <net code="212" name="Net-(J103-PadJ34)">
+      <node ref="J103" pin="J34"/>
+    </net>
+    <net code="213" name="Net-(J103-PadJ33)">
+      <node ref="J103" pin="J33"/>
+    </net>
+    <net code="214" name="Net-(J103-PadJ31)">
+      <node ref="J103" pin="J31"/>
+    </net>
+    <net code="215" name="Net-(J103-PadJ30)">
+      <node ref="J103" pin="J30"/>
+    </net>
+    <net code="216" name="Net-(J103-PadJ27)">
+      <node ref="J103" pin="J27"/>
+    </net>
+    <net code="217" name="Net-(J103-PadJ25)">
+      <node ref="J103" pin="J25"/>
+    </net>
+    <net code="218" name="Net-(J103-PadJ24)">
+      <node ref="J103" pin="J24"/>
+    </net>
+    <net code="219" name="Net-(J103-PadK26)">
+      <node ref="J103" pin="K26"/>
+    </net>
+    <net code="220" name="Net-(J103-PadK25)">
+      <node ref="J103" pin="K25"/>
+    </net>
+    <net code="221" name="Net-(J103-PadK29)">
+      <node ref="J103" pin="K29"/>
+    </net>
+    <net code="222" name="Net-(J103-PadK28)">
+      <node ref="J103" pin="K28"/>
+    </net>
+    <net code="223" name="Net-(J103-PadK32)">
+      <node ref="J103" pin="K32"/>
+    </net>
+    <net code="224" name="Net-(J103-PadK31)">
+      <node ref="J103" pin="K31"/>
+    </net>
+    <net code="225" name="Net-(J103-PadK35)">
+      <node ref="J103" pin="K35"/>
+    </net>
+    <net code="226" name="Net-(J103-PadK34)">
+      <node ref="J103" pin="K34"/>
+    </net>
+    <net code="227" name="Net-(J103-PadK38)">
+      <node ref="J103" pin="K38"/>
+    </net>
+    <net code="228" name="Net-(J103-PadK37)">
+      <node ref="J103" pin="K37"/>
+    </net>
+    <net code="229" name="Net-(J103-PadJ39)">
+      <node ref="J103" pin="J39"/>
+    </net>
+    <net code="230" name="+1V8_FMCP">
+      <node ref="J103" pin="F40"/>
+      <node ref="J103" pin="G39"/>
+      <node ref="TP102" pin="1"/>
+      <node ref="J103" pin="E39"/>
+      <node ref="J103" pin="H40"/>
+    </net>
+    <net code="231" name="Net-(J103-PadB4)">
+      <node ref="J103" pin="B4"/>
+    </net>
+    <net code="232" name="+12V_FMCP">
+      <node ref="J103" pin="C35"/>
+      <node ref="J103" pin="C37"/>
+      <node ref="J103" pin="L36"/>
+      <node ref="J103" pin="L37"/>
+      <node ref="J103" pin="L40"/>
+    </net>
+    <net code="233" name="/LA_R_P3">
+      <node ref="J103" pin="G9"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="234" name="Net-(J103-PadC22)">
+      <node ref="J103" pin="C22"/>
+    </net>
+    <net code="235" name="Net-(J103-PadC23)">
+      <node ref="J103" pin="C23"/>
+    </net>
+    <net code="236" name="Net-(J103-PadD20)">
+      <node ref="J103" pin="D20"/>
+    </net>
+    <net code="237" name="Net-(J103-PadD21)">
+      <node ref="J103" pin="D21"/>
+    </net>
+    <net code="238" name="Net-(J103-PadM7)">
+      <node ref="J103" pin="M7"/>
+    </net>
+    <net code="239" name="Net-(J103-PadM6)">
+      <node ref="J103" pin="M6"/>
+    </net>
+    <net code="240" name="Net-(J103-PadM39)">
+      <node ref="J103" pin="M39"/>
+    </net>
+    <net code="241" name="Net-(J103-PadM38)">
+      <node ref="J103" pin="M38"/>
+    </net>
+    <net code="242" name="Net-(J103-PadM35)">
+      <node ref="J103" pin="M35"/>
+    </net>
+    <net code="243" name="Net-(J103-PadM34)">
+      <node ref="J103" pin="M34"/>
+    </net>
+    <net code="244" name="Net-(J103-PadM31)">
+      <node ref="J103" pin="M31"/>
+    </net>
+    <net code="245" name="Net-(J103-PadM30)">
+      <node ref="J103" pin="M30"/>
+    </net>
+    <net code="246" name="Net-(J103-PadM3)">
+      <node ref="J103" pin="M3"/>
+    </net>
+    <net code="247" name="Net-(J103-PadM27)">
+      <node ref="J103" pin="M27"/>
+    </net>
+    <net code="248" name="Net-(J103-PadM26)">
+      <node ref="J103" pin="M26"/>
+    </net>
+    <net code="249" name="Net-(J103-PadM23)">
+      <node ref="J103" pin="M23"/>
+    </net>
+    <net code="250" name="Net-(J103-PadM22)">
+      <node ref="J103" pin="M22"/>
+    </net>
+    <net code="251" name="/LA_C_P2">
+      <node ref="C105" pin="2"/>
+      <node ref="J103" pin="H7"/>
+    </net>
+    <net code="252" name="/LA_C_N2">
+      <node ref="C106" pin="2"/>
+      <node ref="J103" pin="H8"/>
+    </net>
+    <net code="253" name="/LA_P2">
+      <node ref="J112" pin="1"/>
+      <node ref="C105" pin="1"/>
+    </net>
+    <net code="254" name="/LA_N2">
+      <node ref="J113" pin="1"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="255" name="Net-(J103-PadL29)">
+      <node ref="J103" pin="L29"/>
+    </net>
+    <net code="256" name="Net-(J103-PadL28)">
+      <node ref="J103" pin="L28"/>
+    </net>
+    <net code="257" name="Net-(J103-PadL25)">
+      <node ref="J103" pin="L25"/>
+    </net>
+    <net code="258" name="Net-(J103-PadL24)">
+      <node ref="J103" pin="L24"/>
+    </net>
+    <net code="259" name="Net-(J103-PadL21)">
+      <node ref="J103" pin="L21"/>
+    </net>
+    <net code="260" name="Net-(J103-PadL20)">
+      <node ref="J103" pin="L20"/>
+    </net>
+    <net code="261" name="Net-(J103-PadL17)">
+      <node ref="J103" pin="L17"/>
+    </net>
+    <net code="262" name="Net-(J103-PadL16)">
+      <node ref="J103" pin="L16"/>
+    </net>
+    <net code="263" name="Net-(J103-PadL13)">
+      <node ref="J103" pin="L13"/>
+    </net>
+    <net code="264" name="Net-(J103-PadL12)">
+      <node ref="J103" pin="L12"/>
+    </net>
+    <net code="265" name="Net-(J103-PadL9)">
+      <node ref="J103" pin="L9"/>
+    </net>
+    <net code="266" name="Net-(J103-PadM2)">
+      <node ref="J103" pin="M2"/>
+    </net>
+    <net code="267" name="Net-(J103-PadM19)">
+      <node ref="J103" pin="M19"/>
+    </net>
+    <net code="268" name="Net-(J103-PadM18)">
+      <node ref="J103" pin="M18"/>
+    </net>
+    <net code="269" name="Net-(J103-PadM15)">
+      <node ref="J103" pin="M15"/>
+    </net>
+    <net code="270" name="Net-(J103-PadM14)">
+      <node ref="J103" pin="M14"/>
+    </net>
+    <net code="271" name="Net-(J103-PadM11)">
+      <node ref="J103" pin="M11"/>
+    </net>
+    <net code="272" name="Net-(J103-PadM10)">
+      <node ref="J103" pin="M10"/>
+    </net>
+    <net code="273" name="Net-(C107-Pad1)">
+      <node ref="J116" pin="1"/>
+      <node ref="C107" pin="1"/>
+    </net>
+    <net code="274" name="Net-(J103-PadL8)">
+      <node ref="J103" pin="L8"/>
+    </net>
+    <net code="275" name="Net-(J103-PadL5)">
+      <node ref="J103" pin="L5"/>
+    </net>
+    <net code="276" name="Net-(J103-PadL4)">
+      <node ref="J103" pin="L4"/>
+    </net>
+    <net code="277" name="Net-(J103-PadL33)">
+      <node ref="J103" pin="L33"/>
+    </net>
+    <net code="278" name="Net-(J103-PadL32)">
+      <node ref="J103" pin="L32"/>
+    </net>
+    <net code="279" name="Net-(J117-Pad1)">
+      <node ref="R109" pin="1"/>
+      <node ref="J117" pin="1"/>
+    </net>
+    <net code="280" name="Net-(J119-Pad1)">
+      <node ref="R112" pin="1"/>
+      <node ref="J119" pin="1"/>
+    </net>
+    <net code="281" name="Net-(C108-Pad1)">
+      <node ref="J118" pin="1"/>
+      <node ref="C108" pin="1"/>
+    </net>
+    <net code="282" name="/DP_C2M_R_N6">
+      <node ref="J103" pin="B37"/>
+      <node ref="R108" pin="1"/>
+    </net>
+    <net code="283" name="/DP_C2M_R_P6">
+      <node ref="J103" pin="B36"/>
+      <node ref="R107" pin="1"/>
+    </net>
+    <net code="284" name="/Test_50_Ohm">
+      <node ref="J121" pin="1"/>
+      <node ref="J120" pin="1"/>
+    </net>
+    <net code="285" name="/PG_M2C">
+      <node ref="J103" pin="F1"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="286" name="/Test_100_Ohm_N">
+      <node ref="R112" pin="2"/>
+      <node ref="C108" pin="2"/>
+    </net>
+    <net code="287" name="/Test_100_Ohm_P">
+      <node ref="R109" pin="2"/>
+      <node ref="C107" pin="2"/>
+    </net>
+    <net code="288" name="/LA_N3">
+      <node ref="J115" pin="1"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="289" name="/LA_P3">
+      <node ref="R101" pin="1"/>
+      <node ref="J114" pin="1"/>
+    </net>
+    <net code="290" name="/LA_R_N3">
+      <node ref="J103" pin="G10"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="291" name="/LA_N1">
+      <node ref="J109" pin="1"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="292" name="/LA_P1">
+      <node ref="R105" pin="1"/>
+      <node ref="J108" pin="1"/>
+    </net>
+    <net code="293" name="/LA_R_P1">
+      <node ref="J103" pin="D8"/>
+      <node ref="R105" pin="2"/>
+    </net>
+    <net code="294" name="/LA_R_N1">
+      <node ref="J103" pin="D9"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="295" name="/DPCLK_M2C_N1">
+      <node ref="R104" pin="1"/>
+      <node ref="J105" pin="1"/>
+    </net>
+    <net code="296" name="/DPCLK_M2C_P1">
+      <node ref="J104" pin="1"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="297" name="/DP_M2C_C_N6">
+      <node ref="J103" pin="B17"/>
+      <node ref="C102" pin="1"/>
+    </net>
+    <net code="298" name="/DP_M2C_C_P6">
+      <node ref="C101" pin="1"/>
+      <node ref="J103" pin="B16"/>
+    </net>
+    <net code="299" name="Net-(J103-PadC7)">
+      <node ref="J103" pin="C7"/>
+    </net>
+    <net code="300" name="Net-(J103-PadC6)">
+      <node ref="J103" pin="C6"/>
+    </net>
+    <net code="301" name="Net-(J103-PadC3)">
+      <node ref="J103" pin="C3"/>
+    </net>
+    <net code="302" name="Net-(J103-PadC2)">
+      <node ref="J103" pin="C2"/>
+    </net>
+    <net code="303" name="Net-(J103-PadD5)">
+      <node ref="J103" pin="D5"/>
+    </net>
+    <net code="304" name="Net-(J103-PadD4)">
+      <node ref="J103" pin="D4"/>
+    </net>
+    <net code="305" name="Net-(J103-PadD15)">
+      <node ref="J103" pin="D15"/>
+    </net>
+    <net code="306" name="/DP_C2M_N6">
+      <node ref="J102" pin="1"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="307" name="/DP_C2M_P6">
+      <node ref="R107" pin="2"/>
+      <node ref="J101" pin="1"/>
+    </net>
+    <net code="308" name="/LA_C_N0">
+      <node ref="C104" pin="2"/>
+      <node ref="J103" pin="G7"/>
+    </net>
+    <net code="309" name="/LA_C_P0">
+      <node ref="C103" pin="2"/>
+      <node ref="J103" pin="G6"/>
+    </net>
+    <net code="310" name="/LA_N0">
+      <node ref="C104" pin="1"/>
+      <node ref="J111" pin="1"/>
+    </net>
+    <net code="311" name="Net-(J103-PadD17)">
+      <node ref="J103" pin="D17"/>
+    </net>
+    <net code="312" name="Net-(J103-PadD14)">
+      <node ref="J103" pin="D14"/>
+    </net>
+    <net code="313" name="Net-(J103-PadD12)">
+      <node ref="J103" pin="D12"/>
+    </net>
+    <net code="314" name="Net-(J103-PadD11)">
+      <node ref="J103" pin="D11"/>
+    </net>
+    <net code="315" name="Net-(J103-PadB33)">
+      <node ref="J103" pin="B33"/>
+    </net>
+    <net code="316" name="Net-(J103-PadB32)">
+      <node ref="J103" pin="B32"/>
+    </net>
+    <net code="317" name="Net-(J103-PadB29)">
+      <node ref="J103" pin="B29"/>
+    </net>
+    <net code="318" name="Net-(J103-PadB28)">
+      <node ref="J103" pin="B28"/>
+    </net>
+    <net code="319" name="Net-(J103-PadB25)">
+      <node ref="J103" pin="B25"/>
+    </net>
+    <net code="320" name="Net-(J103-PadB24)">
+      <node ref="J103" pin="B24"/>
+    </net>
+    <net code="321" name="Net-(J103-PadB13)">
+      <node ref="J103" pin="B13"/>
+    </net>
+    <net code="322" name="Net-(J103-PadB12)">
+      <node ref="J103" pin="B12"/>
+    </net>
+    <net code="323" name="Net-(J103-PadB9)">
+      <node ref="J103" pin="B9"/>
+    </net>
+    <net code="324" name="Net-(J103-PadB8)">
+      <node ref="J103" pin="B8"/>
+    </net>
+    <net code="325" name="Net-(J103-PadB5)">
+      <node ref="J103" pin="B5"/>
+    </net>
+    <net code="326" name="/DP_M2C_P6">
+      <node ref="J106" pin="1"/>
+      <node ref="C101" pin="2"/>
+    </net>
+    <net code="327" name="/DP_M2C_N6">
+      <node ref="J107" pin="1"/>
+      <node ref="C102" pin="2"/>
+    </net>
+    <net code="328" name="/LA_P0">
+      <node ref="J110" pin="1"/>
+      <node ref="C103" pin="1"/>
+    </net>
+  </nets>
+</export>
