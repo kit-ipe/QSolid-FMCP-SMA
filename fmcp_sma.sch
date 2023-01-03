@@ -11,7 +11,7 @@ Comp "Karlsruhe Institute of Technology (KIT)"
 Comment1 "Institute for Data Processing and Electronics (IPE)"
 Comment2 "Robert Gartmann, Lukas Scheller"
 Comment3 "Luis Ardila, Marvin Fuchs, "
-Comment4 ""
+Comment4 "Licensed under CERN-OHL-P v2"
 $EndDescr
 $Comp
 L Mechanical:MountingHole H103
