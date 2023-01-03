@@ -19,7 +19,7 @@
 
 ## LICENSE
 
-Copyright Luis Ardila 2023.
+Copyright Luis Ardila, Marvin Fuchs, Robert Gartmann, Lukas Scheller 2023.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-P v2
 You may redistribute and modify this documentation and make products
